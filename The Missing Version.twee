@@ -1,0 +1,2858 @@
+:: StoryTitle
+The Missing Version
+
+
+:: StoryData
+{
+  "ifid": "55A7B356-53B2-4FA6-81AF-875414766446",
+  "format": "SugarCube",
+  "format-version": "2.37.3",
+  "start": "DEBUT",
+  "zoom": 1
+}
+
+
+:: Cette lettre {"position":"8800,400","size":"100,100"}
+Nous nous installons dans un coin tranquille de l'auberge. Je garde l'enveloppe entre mes mains pendant quelques secondes avant de l'ouvrir.
+
+À l'intérieur, une feuille pliée en deux. L'écriture ne laisse aucun doute : c'est celle de ma sœur.
+
+MA : " Tu veux que je te laisse un peu de temps ? "
+
+Prota : " Non… Je veux savoir ce qu'elle a écrit. "
+
+Extrait de la lettre: " Je ne sais pas si cette lettre arrivera un jour jusqu'à toi.
+Cela fait longtemps que je cherche les mots pour t'expliquer. J'ai essayé plusieurs fois de t'écrire, mais je n'ai jamais trouvé le courage d'aller jusqu'au bout.
+Je ne sais même pas si tu te souviens encore de moi.
+Il y a des choses que tu ignores, et je ne sais pas comment te les raconter sans faire encore plus de mal.
+J'espère simplement qu'un jour, tu comprendras pourquoi je suis partie. "
+
+Prota : " Pourquoi cette lettre n'est-elle jamais arrivée jusqu'à moi ? "
+
+MA : " Je ne sais pas… Mais on dirait qu'elle a essayé de te contacter. "
+
+[[confrontation avec ma mère]]
+
+
+:: DEBUT {"position":"400,225","size":"100,100"}
+The Missing Version
+[[Commencer !->INTRODUCTION]]
+
+
+:: Découverte dans le grenier {"position":"700,200","size":"100,100"}
+
+<div class="scene">
+    <div class="background"></div>
+
+    <div class="character">
+        <img src="https://i.ibb.co/wrZVjWr8/file-00000000f99c81f4ab719ce7f712689c.png">
+    </div>
+</div>
+
+<div class="scene-content">
+
+    En cherchant d'anciennes affaires, je découvre un carton au nom de ma sœur.
+
+    <<link "L'ouvrir ?">>
+        <<set $soeur += 1>>
+        <<goto "L'ouvrir ?">>
+    <</link>>
+
+    <<link "Laisser">>
+        <<goto "Laisser">>
+    <</link>>
+
+</div>
+
+
+
+:: FIN FAMILLE {"position":"10900,400","size":"100,100"}
+Prota : " Même s'ils m'ont menti, toi, tu es quand même partie. "
+
+Ma sœur ne cherche pas à se défendre.
+
+Sœur : " Je sais. "
+
+Prota : " J'ai passé tellement de temps à essayer de comprendre pourquoi tu nous avais laissés. Maintenant, je comprends mieux… mais ça ne change pas tout. "
+
+Sœur : " Je ne te demande pas de me pardonner. "
+
+Prota : " Je crois que j'ai besoin de rentrer. "
+
+Je me lève et prends mes affaires.
+
+Sœur : " Je comprends. "
+
+Je quitte la maison sans me retourner. MA m'attend près de la voiture.
+
+MA : " Alors ? "
+
+Prota : " On rentre. "
+
+Je regarde une dernière fois la maison avant de monter dans la voiture.
+
+Cette fois, je connais une partie de la vérité. Mais je ne suis pas encore prête à reconstruire ce que j'ai perdu.
+
+
+:: FIN INDEPENDANCE {"position":"10900,500","size":"100,100"}
+Je regarde ma sœur, puis les objets posés sur la table. Toutes ces lettres, ces photos, ces souvenirs…
+
+Pendant tout le voyage, j'ai essayé de déterminer qui disait la vérité. Mes parents m'ont donné leur version. Ma sœur m'a donné la sienne.
+
+J'ai passé tellement de temps à chercher laquelle était la bonne que j'ai oublié une chose : aucune de ces personnes ne pouvait décider à ma place de ce que je devais ressentir.
+
+Prota : " Je te pardonne, mais je ne suis pas venue ici pour remplacer une famille par une autre. "
+
+Ma sœur reste silencieuse.
+
+Prota : " Je suis venue chercher une réponse. Maintenant que je l'ai, je dois trouver ce que moi, je veux. "
+
+Sœur : " Je comprends. "
+
+Prota : " Je ne sais pas encore quelle place tu auras dans ma vie. Mais je ne veux plus vivre avec des histoires qu'on me raconte à ma place. "
+
+Je me lève et lui adresse un dernier regard.
+
+Prota : " Prends soin de toi. "
+
+Je sors de la maison.
+
+MA m'attend près de la voiture.
+
+MA : " Alors ? "
+
+Prota : " C'est compliqué. "
+
+MA : " On rentre ? "
+
+Je regarde la route devant nous. Puis je secoue doucement la tête.
+
+Prota : " Pas encore. "
+
+MA sourit légèrement et remonte dans la voiture.
+
+Nous repartons ensemble.
+
+Pas pour poursuivre l'enquête. Pas pour chercher une nouvelle réponse.
+
+Juste pour continuer le voyage.
+
+
+:: FIN SOEUR {"position":"10900,300","size":"100,100"}
+Prota : " Je t'en ai voulu pendant tellement longtemps. "
+
+Sœur : " Je sais. "
+
+Prota : " Je ne sais pas si je peux te pardonner tout de suite. "
+
+Sœur : " Je ne te le demande pas. "
+
+Je regarde ma sœur. Je ne sais pas si les choses pourront redevenir comme avant, ni même si c'est ce que je veux.
+
+Prota : " On ne pourra pas récupérer toutes ces années… "
+
+Sœur : " Non. "
+
+Prota : " Mais on peut peut-être arrêter d'en perdre. "
+
+Ma sœur esquisse un léger sourire. Elle ne dit rien, mais je comprends qu'elle a entendu ce que je voulais lui dire.
+
+Pour la première fois depuis longtemps, je ne la regarde plus comme quelqu'un que je dois retrouver.
+
+Je la regarde comme quelqu'un que je pourrais apprendre à connaître à nouveau.
+
+
+:: INTRODUCTION {"position":"525,225","size":"100,100"}
+J'était poser dans sa chambre musique à fond, en train de parcourir l'un de nos albums de famille, quand j' aperçois une photo de ma soeur <<[[photo de la soeur]]>>
+
+
+
+
+
+
+:: L'ouvrir ? {"position":"800,100","size":"100,100"}
+Je s'agenouille devant le carton 
+Apres quelques seondes d'hésitation , je finit par l'ouvrir
+
+A l'interieur je decouvre plusieurs affaires appartenent à ma soeur
+
+Des vetements quelques objets...
+
+Puis quelque chose attire mon attention
+
+[[une veille photo]]
+
+
+
+
+:: Laisser {"position":"775,325","size":"100,100"}
+Je regarde le carton pendant quelque secondes.
+Finalement je decide de ne pas y toucher 
+Je continue à chercher dans mes ancienne affaires et fini par trouver la robe que je chercher.
+De retour dans ma chambre je l'essaie devant le miroir
+
+*prendre une photo de [[la robe]] et l'envoyer a sa meilleure amie*
+
+
+
+
+:: Le lendemain matin {"position":"8400,700","size":"100,100"}
+Je me lève, je termine de préparer mon sac. En descendant les escaliers, je trouve ma mère dans le salon.
+
+Elle remarque immédiatement mon sac.
+
+Mère : " Tu repars ? "
+
+Prota : " Oui. "
+
+Mère : " Malgré tout ce qu'on vient de te dire ? "
+
+Prota : " J'ai besoin de la retrouvée. "
+
+Mère : " Tu crois vraiment que ça va changer quelque chose ? "
+
+Prota : " Je veux juste connaître toute l'histoire. "
+
+Ma mère baisse les yeux. Pendant quelques secondes, aucune de nous ne parle.
+
+Prota : «"Je reviendrai, mais j'ai besoin de faire ça avant. "
+
+Mère : " Fais comme tu veux… "
+
+Je rejoins MA devant la voiture. Elle m'attend sans poser de questions.
+
+Nous reprenons la route. Cette fois, je sais que je ne pourrai plus faire comme si rien ne s'était passé.
+
+[[prochaine destination]] 
+
+
+:: Retour grenier {"position":"1175,350","size":"100,100"}
+
+<div class="scene-content">
+
+    <p class="narration">
+        Quelques minutes plus tard…
+    </p>
+
+    <p class="narration">
+        On monte toutes les deux dans le grenier.
+        Le carton est toujours là, exactement à l'endroit où je l'avais laissé.
+    </p>
+
+    <div class="dialogue ma">
+        <div class="bubble">
+            <span class="speaker">MA</span>
+            T'es prête ?
+        </div>
+    </div>
+
+    <p class="narration">
+        J'hésite quelques secondes, puis je m'approche du carton.
+    </p>
+
+    <p class="narration">
+        Cette fois, je l'ouvre.
+    </p>
+
+    <div class="choices">
+        [[L'ouvrir ?]]
+    </div>
+
+</div>
+
+
+
+
+
+:: StoryInit {"position":"400,325","size":"100,100"}
+<<set $soeur = 0>>
+<<set $famille = 0>>
+<<set $independance = 0>>
+
+
+
+:: abandonner cette piste {"position":"6200,200","size":"100,100"}
+Prota : " Je ne pense pas que ça nous mènera quelque part. On devrait laisser tomber. "
+
+MA : " Tu es sûre ? C'est peut-être notre seule piste pour le moment. "
+
+Prota : " Ce numéro ne lui appartient même plus. Je préfère qu'on se concentre sur autre chose. "
+
+MA : " D'accord… C'est toi qui décides. "
+
+Après plusieurs heures de route, nous décidons de nous arrêter dans un motel pour la nuit. On commande quelque chose à manger et on s'installe dans [[la petite chambre]].
+
+
+:: accelerer {"position":"7800,100","size":"100,100"}
+J'appuie sur l'accélérateur. La voiture prend de la vitesse, mais celle derrière nous accélère également.
+
+MA : "Elle fait exactement la même chose… "
+
+Prota : " Je commence à ne pas aimer ça. "
+
+Après quelques minutes, nous décidons de quitter l'autoroute pour nous arrêter dans [[une station-service]].
+
+
+:: ancien appartement {"position":"5500,300","size":"100,100"}
+<<set $piste = "appartement">>
+Elles se rendent à l'ancienne adresse de leur sœur. Après quelques minutes, [[un voisin]] accepte de leur parler.
+
+
+
+
+:: ancien travail {"position":"5500,100","size":"100,100"}
+<<set $piste = "travail">>
+On roule plusieurs minutes, differents paysage deffilent 
+
+On se gare sur le parking d'un super marche on rentre à l'interieur 
+
+On se dirige vers un [[caissier]] 
+
+
+
+
+:: appeler directement le numéro {"position":"7100,300","size":"100,100"}
+La sonnerie retentit plusieurs fois. Quelqu'un finit par décrocher. Je retiens mon souffle.
+
+Prota : " Allô ? Qui êtes-vous ? "
+
+Aucun mot. Juste un silence à l'autre bout du fil.
+
+Prota : " Vous m'entendez ? "
+
+La personne raccroche brusquement.
+
+MA : " C'était qui ? "
+
+Prota : " J'en sais rien… "
+
+Le message reçu ce matin ne cesse de me revenir en tête. Entre les lettres retrouvées, les témoignages et maintenant cette menace, je commence à me [[sentir dépassée]].
+
+
+:: appeler ses parents avant d'y aller {"position":"9800,500","size":"100,100"}
+Prota : « Avant de partir, je veux les appeler. Je ne veux pas qu'ils apprennent que je l'ai retrouvée par quelqu'un d'autre. »
+
+MA : « Tu crois qu'ils vont bien réagir ? »
+
+Prota : « Je ne sais pas. Mais cette fois, je ne veux plus leur cacher ce que je fais. »
+
+[[devant la porte]]
+
+
+:: appeller imméddiatement {"position":"6200,0","size":"100,100"}
+Prota : " On devrait essayer de l'appeler maintenant. "
+
+MA : " Tu crois vraiment qu'elle pourrait répondre ? "
+
+La protagoniste compose le numéro. Après quelques tonalités, quelqu'un décroche.
+
+Inconnu : " Allô ? "
+
+Prota : " Bonjour, excusez-moi… Je cherche à joindre l'ancienne propriétaire de ce numéro. "
+
+Inconnu : " Vous voulez parler de la personne qui avait ce numéro avant moi ? "
+
+Prota : " Oui, vous la connaissiez ? "
+
+Inconnu : " Non, mais j'ai reçu plusieurs appels à son sujet. Une personne a même essayé de me joindre en demandant après elle. "
+
+Prota : " Vous vous souvenez de cette personne ? "
+
+Inconnu : "Non désoler"
+
+Je fini par raccrocher 
+
+Après plusieurs heures de route, nous décidons de nous arrêter dans un motel pour la nuit. On commande quelque chose à manger et on s'installe dans [[la petite chambre]].
+
+
+:: arrêter de lire {"position":"4475,200","size":"100,100"}
+Je prefère ne pas aller plus loin et respecter son intimité
+
+Je repose le carnet à sa place, mais je m'aperçois qu'une [[lettre]] jamais envoyer dépasse du carnet 
+
+
+:: autoroute {"position":"7600,200","size":"100,100"}
+Nous prenons l'autoroute. Pendant plusieurs kilomètres, tout semble normal. MA regarde régulièrement les voitures autour de nous.
+
+MA : " Dis… Tu vois la voiture derrière nous ? "
+
+Prota : " Laquelle ? "
+
+MA : " La voiture grise, là. Elle est derrière nous depuis un moment. "
+
+Prota : " Et alors ? Il y a du monde sur l'autoroute. "
+
+MA : " Oui, je sais. Mais regarde… "
+
+Je jette un œil dans le rétroviseur. La voiture grise est toujours là, à quelques distances derrière nous.
+
+Prota : " Tu crois qu'elle nous suit ? "
+
+MA : " Je ne sais pas. Peut-être que je me fais des idées… "
+
+Je change de voie. Quelques instants plus tard, la voiture fait de même.
+
+MA : " Bon… Là, ça commence à être bizarre. "
+
+Prota : " On fait quoi ? "
+
+[[accelerer]]
+
+[[ralentir]]
+
+[[ignorer]]
+
+
+
+:: briser le silence {"position":"5000,200","size":"100,100"}
+MA: "Tu te rends compte de ce que sa veut dire ? Tes parents ne t'ont peut peut-etre pas tout raconté"
+
+<<link "ne parle pas de mes parent">>
+	<<set $famille +=1>>
+	<<goto "ne parle pas de mes parent">>
+<</link>>
+
+<<link "je commence aussi à avoir des doutes">>
+	<<set $soeur +=1>>
+	<<goto "je commence aussi à avoir des doutes">>
+<</link>>
+
+<<link "on n'a pas encore assez de preuves">>
+	<<set $independance +=1>>
+	<<goto "on n'a pas encore assez de preuves">>
+<</link>>
+
+
+
+:: caissier {"position":"5700,100","size":"100,100"}
+Prota : " Bonjour, vous avez travaillé avec une jeune femme qui s'appelle [Prénom] ?"
+
+Ancien collègue : " [Prénom] ? Bien sûr ! Ça fait longtemps que je n'ai pas entendu ce nom. "
+
+Prota : " Vous vous souvenez d'elle ? "
+
+Ancien collègue : " Évidemment. C'était quelqu'un de formidable. Toujours souriante, pleine d'énergie. Elle arrivait toujours à mettre de bonne humeur toute l'équipe. "
+
+MA : " Elle semblait heureuse ici ? "
+
+Ancien collègue : " Oui, vraiment. Elle adorait son travail et avait beaucoup de projets. "
+
+Prota : " C'est étrange… Nos parents nous ont toujours dit qu'elle était instable et qu'elle traversait une période difficile. "
+
+Ancien collègue : " Instable ? Ça ne correspond pas du tout à la personne que j'ai connue. "
+
+Prota : " Vous êtes sûr ? "
+
+Ancien collègue : " Absolument. Par contre, il y avait une chose assez étrange… "
+
+MA : " Laquelle ? "
+
+Ancien collègue : " Elle ne parlait jamais de sa famille. Même quand on discutait de nos vies personnelles, elle évitait toujours le sujet. "
+
+Prota : " Jamais ? "
+
+Ancien collègue : " Jamais. Comme si elle voulait garder cette partie de sa vie complètement séparée, mais je me souviens qu'elle recevait [[des appels]] "
+
+
+:: carton {"position":"1025,325","size":"100,100"}
+Prota: "Jai trouvée autre chose dans le grenier"
+
+
+<div class="scene-content">
+
+    <div class="dialogue ma">
+        <div class="bubble">
+            <span class="speaker">MA</span>
+            Quoi ?
+        </div>
+    </div>
+
+    <div class="dialogue prota">
+        <div class="bubble">
+            <span class="speaker">Prota</span>
+            Un carton avec le nom de ma sœur dessus.
+        </div>
+    </div>
+
+    <div class="dialogue ma">
+        <div class="bubble">
+            <span class="speaker">MA</span>
+            Tu l'as ouvert ?
+        </div>
+    </div>
+
+    <div class="dialogue prota">
+        <div class="bubble">
+            <span class="speaker">Prota</span>
+            Non…
+        </div>
+    </div>
+
+    <div class="dialogue ma">
+        <div class="bubble">
+            <span class="speaker">MA</span>
+            Pourquoi ?
+        </div>
+    </div>
+
+    <div class="dialogue prota">
+        <div class="bubble">
+            <span class="speaker">Prota</span>
+            Je sais pas… J'ai pas réussi.
+        </div>
+    </div>
+
+    <div class="dialogue ma">
+        <div class="bubble">
+            <span class="speaker">MA</span>
+            Tu veux que je vienne ?
+        </div>
+    </div>
+
+    <div class="dialogue prota">
+        <div class="bubble">
+            <span class="speaker">Prota</span>
+            Oui.
+        </div>
+    </div>
+
+    <div class="choices">
+        [[Retour grenier]]
+    </div>
+
+</div>
+
+
+
+:: ce que j'ai appris {"position":"7800,700","size":"100,100"}
+<<if $piste == "travail">>
+
+Prota : " Son ancien collègue m'a parlé des appels qu'elle recevait au travail. Qui l'appelait ? "
+
+Mère : " Comment veux-tu qu'on le sache ? "
+
+Prota : " Il m'a aussi dit qu'elle refusait de parler de vous. Pourquoi ? "
+
+Père : " Ta sœur avait ses raisons. "
+
+<<elseif $piste == "appartement">>
+
+Prota : " Un ancien voisin m'a raconté qu'elle semblait avoir peur de quelqu'un. Pourquoi ? "
+
+Mère : " Les voisins racontent beaucoup de choses. "
+
+Prota : " Il m'a aussi parlé d'une femme qui venait lui rendre visite. Qui était-ce ? "
+
+Père : " On ne sait pas de quoi tu parles. "
+
+<</if>>
+
+Je commence à [[douter]] 
+
+
+:: chambre {"position":"3900,200","size":"100,100"}
+<<link "fouiller la chambre">>
+	<<set $independance +=1>>
+	<<goto "fouiller la chambre">>
+<</link>>
+
+<<link "demander la permission">>
+	<<set $soeur +=1>>
+	<<goto "demander la permission">>
+<</link>>
+
+<<link "refuser de fouiller">>
+	<<set $soeur +=1>>
+	<<goto "refuser de fouiller">>
+<</link>>
+
+
+:: confrontation {"position":"1075,100","size":"100,100"}
+
+<div class="scene-content">
+
+    <p class="narration">
+        Je descends du grenier dans l'espoir de confronter ma mère et d'obtenir des réponses.
+    </p>
+
+    <div class="dialogue prota">
+        <div class="bubble">
+            <span class="speaker">Prota</span>
+            M'man, en cherchant de vieilles affaires, j'ai trouvé ça… C'est à propos de <escape>[nom de la sœur]</escape>.
+        </div>
+    </div>
+
+    <div class="photo-dialogue">
+        <img src="URL_DE_TA_PHOTO" alt="Photo retrouvée dans le grenier">
+    </div>
+
+    <div class="dialogue mere">
+        <div class="bubble">
+            <span class="speaker">Mère</span>
+            Oh…
+        </div>
+    </div>
+
+    <div class="dialogue prota">
+        <div class="bubble">
+            <span class="speaker">Prota</span>
+            C'est qui sur la photo avec elle ?
+        </div>
+    </div>
+
+    <div class="dialogue mere">
+        <div class="bubble">
+            <span class="speaker">Mère</span>
+            Je ne sais pas trop… Ta sœur avait beaucoup d'amies.
+        </div>
+    </div>
+
+    <div class="choices">
+        <<link "Insister">>
+            <<set $soeur += 1>>
+            <<goto "la mère s'énerve">>
+        <</link>>
+
+        <<link "La croire">>
+            <<set $famille += 1>>
+            <<goto "croire maman">>
+        <</link>>
+
+        <<link "Faire semblant de la croire">>
+            <<set $independance += 1>>
+            <<goto "se méfier">>
+        <</link>>
+    </div>
+
+</div>
+
+
+
+:: confrontation avec ma mère {"position":"9000,400","size":"100,100"}
+Assise dans la chambre de l'auberge, je regarde une nouvelle fois la lettre. Après quelques hésitations, je décide d'appeler ma mère.
+
+Elle décroche après plusieurs sonneries.
+
+Mère : " Allô ? "
+
+Prota : " Maman, il faut qu'on parle. "
+
+Mère : " Encore ? Qu'est-ce qu'il y a cette fois ? "
+
+Prota : " J'ai retrouvé une lettre de ma sœur. Elle m'était adressée. Elle date de plusieurs années après son départ. "
+
+Un silence se fait entendre à l'autre bout du fil.
+
+Mère : " Je ne vois pas ce que tu veux que je te dise. "
+
+Prota : " Tu savais qu'elle avait essayé de me contacter ? "
+
+Mère : " Ta sœur a fait ses choix. Il faut que tu arrêtes de revenir sans cesse sur le passé. "
+
+Prota : " Ce n'est pas une réponse, maman. "
+
+<<link "l'accuser directement">>
+	<<set $soeur +=1>>
+	<<goto "l'accuser directement">>
+<</link>>
+
+<<link "faire semblant de ne pas savoir grand-chose">>
+	<<set $independance +=1>>
+	<<goto "faire semblant de ne pas savoir grand-chose">>
+<</link>>
+
+<<link "demander simplement la vérité">>
+	<<set $famille +=1>>
+	<<goto "demander simplement la vérité">>
+<</link>>
+
+
+:: confronté directement ma mère {"position":"3200,350","size":"100,100"}
+Prota : " Le propriétaire nous a raconté certaines choses sur elle. Pourquoi tu ne nous as jamais rien dit ? "
+
+Mère : " Je ne sais pas de quoi tu parles. Tu devrais arrêter d'écouter les histoires des autres. "
+
+Après l'appel, elles retournent voir le propriétaire pour lui demander s'il connaît d'autres personnes qui pourraient les aider.
+
+Propriétaire : " Il y a peut-être quelqu'un qui pourrait vous en dire davantage. Une ancienne amie de votre sœur. "
+
+Prota : " Vous savez où on peut la trouver ? "
+
+Propriétaire : " Oui. J'ai encore son ancienne adresse. Tenez, prenez-la. "
+
+MA : " Tu crois qu'elle saura ce qui s'est vraiment passé ? "
+
+Prota : " J'espère… On n'a pas fait tout ce chemin pour s'arrêter maintenant. "
+
+[[nouvelle piste]]
+
+
+:: continuer {"position":"7400,400","size":"100,100"}
+Prota :  Non, on commence à découvrir beacoup de choses je veut pas m'arreter . "
+
+MA : " D'accord. Alors on continue. "
+
+Nous remontons dans la voiture et MA branche son téléphone pour afficher l'itinéraire.
+
+MA : " Bon, voyons voir… On a deux possibilités. "
+
+Prota : " Lesquelles ? "
+
+MA : " L'autoroute. On arrivera beaucoup plus vite. Ou alors la route secondaire. Elle traverse plusieurs petites villes et villages, mais on perd presque une heure. "
+
+Prota : " Tu préfères quoi ? "
+
+MA : " On veut arriver vite ou on profite du détour pour continuer à chercher ? "
+
+[[autoroute]]
+
+[[route secondaire]]
+
+
+
+:: croire maman {"position":"1200,100","size":"100,100"}
+
+<div class="scene-content">
+
+    <p class="narration">
+        Je décide de la croire. Après tout, je ne vois pas pourquoi elle me mentirait à ce sujet.
+    </p>
+
+    <div class="dialogue prota">
+        <div class="bubble">
+            <span class="speaker">Prota</span>
+            Ok, d'accord.
+        </div>
+    </div>
+
+    <p class="narration">
+        Ma mère acquiesce avant de retourner à ses occupations, comme si cette discussion n'avait jamais eu lieu.
+    </p>
+
+    <p class="narration">
+        Je retourne dans ma chambre.
+    </p>
+
+    <div class="choices">
+        [[Discussion avec ma meilleure amie->discussion avec la meilleure amie]]
+    </div>
+
+</div>
+
+
+
+:: demander dans quel état elle semblait être {"position":"8100,600","size":"100,100"}
+Libraire : " Elle semblait souvent hésiter avant d'envoyer certaines lettres. Parfois, elle les gardait plusieurs jours avec elle. "
+
+MA : " Tu crois qu'elle n'osait pas les envoyer ? "
+
+Prota : " Peut-être… J'aimerais bien savoir ce qu'elles contenaient. "
+
+Le libraire ne peut malheureusement pas nous en apprendre davantage.
+
+Après l'avoir remercié, nous reprenons la route. Plusieurs heures passent avant que nous arrivions à notre [[prochaine destination]].
+
+
+:: demander la permission {"position":"4100,200","size":"100,100"}
+Prota : " Est-ce que ça vous dérangerait de nous montrer les affaires qu'elle a laissées ? "
+
+Amie : " Non, bien sûr. J'ai justement gardé une boîte avec quelques souvenirs à elle. "
+
+Elle revient avec une boîte remplie de photographies, de lettres et de petits objets.
+
+Prota : " Vous avez gardé tout ça… "
+
+Amie : " Elle comptait beaucoup pour moi. Je pensais qu'un jour quelqu'un viendrait les chercher. "
+
+Une boîte contenant plusieurs souvenirs de la sœur.
+
+A l'intérieur [[un carnet]] personnel contenant des notes sur les événements de cette période.
+
+
+:: demander si elle était heureuse {"position":"2825,0","size":"100,100"}
+Prota:"Elle était heureuse ?"
+
+Proprio: "Au début pas trop mais plus les jours passé, plus elle souriait elle avait toujours un livre avec elle"
+
+Prota : "Elle venait souvent seule ?"
+
+Proprio: "La plupart du temps elle était acoompagner d'une amie à elle, il me semble même qu'elle a enmenager avec elle"
+
+Prota: "Vous avez une adresse ?"
+
+Proprio: "Je pense me souvenir encore de l'adresse"
+
+Il grifonne une adresse sur un papier et me la temps au moment de sortir du café il me dit [[premiere contradiction]]  
+
+
+
+:: demander si quelqu'un accompagnait sa soeur {"position":"8100,500","size":"100,100"}
+Prota : " Elle venait avec quelqu'un ? "
+
+Libraire : " Pas à mon souvenir. Elle était généralement seule. "
+
+Le libraire ne peut malheureusement pas nous en apprendre davantage.
+
+Après l'avoir remercié, nous reprenons la route. Plusieurs heures passent avant que nous arrivions à notre [[prochaine destination]].
+
+
+:: demander simplement la vérité {"position":"9100,500","size":"100,100"}
+Prota : " Maman, je ne veux pas me disputer. Je veux juste connaître la vérité. "
+
+Mère : " Certaines choses étaient compliquées à cette époque… "
+
+Prota : " Qu'est-ce que tu veux dire ? "
+
+Mère : " Ta sœur n'était pas prête à revenir. Ton père et moi avons pensé qu'il valait mieux ne pas te mêler à tout ça. "
+
+Prota : " Vous avez décidé à ma place ? "
+
+Mère : " On pensait te protéger. "
+
+Prota : " Mais vous m'avez laissé croire qu'elle nous avait abandonnés. "
+
+   Ma mère ne répond pas immédiatement.
+
+Mère : " Je sais… On aurait peut-être dû faire les choses autrement. "
+
+   Elle ne m'explique pas tout, mais pour la première fois, elle reconnaît qu'ils ont pris certaines décisions concernant ma sœur.
+   
+   [[la dernière personne]]
+
+
+:: demander une description de la femme {"position":"6050,400","size":"100,100"}
+Prota : " Essayez de vous souvenir. Elle ressemblait à quoi ? "
+
+Voisin : " Elle était assez grande, les cheveux foncés, toujours bien habillée. Elle avait une façon de parler assez autoritaire. "
+
+MA : " Ça te rappelle quelqu'un ? "
+
+Prota : " … Maman. "
+
+MA : " Tu crois que ça pouvait être elle ? "
+
+Prota : " Je ne sais pas. Mais certains détails correspondent. "
+
+Avant de partir, le voisin leur indique qu'un ancien espace de stockage est encore associé à l'appartement. Elles décident d'aller [[y jeter un œil]].
+
+
+:: demander à qui les lettres étaient destinées {"position":"8100,400","size":"100,100"}
+Prota : " Vous savez à qui elle les envoyait ? "
+
+Libraire : " Non, je n'ai jamais vraiment su. Elle ne m'en parlait pas. "
+
+Le libraire ne peut malheureusement pas nous en apprendre davantage.
+
+Après l'avoir remercié, nous reprenons la route. Plusieurs heures passent avant que nous arrivions à notre [[prochaine destination]].
+
+
+:: des appels {"position":"5900,100","size":"100,100"}
+MA : " Comment ça ? "
+
+Ancien collègue : " Elle qui était toujours souriante devenait soudainement nerveuse. Elle s'isolait et essayait de terminer rapidement ses conversations. "
+
+Prota : " Vous avez déjà entendu ce qu'elle disait ? "
+
+Ancien collègue : " Une fois, en passant près d'elle, je l'ai entendue dire quelque chose d'assez étrange… "
+
+Prota : " Qu'est-ce qu'elle a dit ? "
+
+Ancien collègue : " Elle a dit : "Arrête de m'appeler !" Puis elle a raccroché. "
+
+MA : " Vous savez qui pouvait l'appeler ? "
+
+Ancien collègue : " Pas du tout. Elle ne nous a jamais parlé de cette personne. "
+
+Ancien collègue : " Je ne peux pas vous en dire davantage, mais j'ai encore son [[numéro]]  "
+
+
+:: des visites {"position":"5900,300","size":"100,100"}
+Prota: "Des visites ? "
+
+Voisin : " Il y avait une femme qui venait parfois lui rendre visite. "
+
+Prota : " Une femme ? "
+
+Voisin : " Oui, elle était plus âgée qu'elle. Elles avaient parfois des discussions assez tendues devant l'entrée. "
+
+MA : " Vous savez de quoi elles parlaient ? "
+
+Voisin : " Non, je n'entendais pas tout. Mais une fois, j'ai entendu votre sœur dire : "Tu n'as pas le droit de décider à ma place. "
+
+Prota : " Vous vous souvenez de son apparence ? "
+
+Voisin : " Pas très précisément… Pourquoi ? "
+
+<<link "ne pas lui demander">>
+	<<set $famille +=1>>
+	<<goto "ne pas lui demander">>
+<</link>>
+
+<<link "demander une description de la femme">>
+	<<set $independance +=1>>
+	<<goto "demander une description de la femme">>
+<</link>>
+
+<<link "montrer directement une photo de sa mère">>
+	<<set $soeur +=1>>
+	<<goto "montrer directement une photo de sa mère">>
+<</link>>
+
+
+:: destination {"position":"1800,125","size":"100,100"}
+Assise dans la voiture (nom MA) me regarde
+
+MA: "Tu feras quoi si on la retrouve réellement ?"
+
+<<link "demander de revenir">>
+	<<set $soeur +=1>>
+	<<goto "revient">>
+<</link>>
+
+<<link "ce que j'en pence">>
+	<<set $famille +=1>>
+	<<goto "ma penser">>
+<</link>>
+
+<<link "réponse">>
+	<<set $independance +=1>>
+	<<goto "savoir">>
+<</link>>
+
+
+:: deux pistes {"position":"5300,200","size":"100,100"}
+L'amie nous donne deux adresse qui pourrait nous aidées à avoir d'autres informations
+
+L'adresse d'un ancien travaille de ma soeur.
+
+Et l'adresse d'un ancien appartement 
+
+On sort de la maison, et on se pose dans la voiture.
+
+MA: "Bon, ou est ce qu'on va ?"
+
+Prota: "Je sais pas trop j'hésite"
+
+MA: "Quoi qu'on choissisent on auras des réponses"
+
+Prota: "Je sais..."
+
+Elle lance de nouveau la radio et me regarde en souriant 
+
+MA: "Ou allons-nous ? "
+
+[[ancien travail]]
+
+[[ancien appartement]]
+
+
+:: devant la porte {"position":"10000,400","size":"100,100"}
+Après plusieurs heures de route, nous arrivons enfin devant l'adresse inscrite sur le papier.
+
+Je descends de la voiture et regarde la maison. J'ai imaginé ce moment tellement de fois que je ne sais même plus quoi ressentir.
+
+MA : " C'est ici ? "
+
+Prota : " Oui… C'est ici. "
+
+MA sort à son tour et vient se placer à côté de moi.
+
+MA : " Tu veux que je vienne avec toi ? "
+
+Prota : " Je crois que celle-là, je dois la faire sans toi. "
+
+Je lui adresse un léger sourire avant de me diriger vers la porte.
+
+Je frappe.
+
+Quelques secondes passent. Des pas se rapprochent, puis la porte s'ouvre.
+
+Une femme apparaît. Je reconnais immédiatement son visage. Elle semble d'abord surprise, puis son regard change lorsqu'elle comprend qui se trouve devant elle.
+
+Nous restons silencieuses quelques secondes.
+
+Sœur : " …tu as grandi. "
+
+Prota:  " C'est tout ce que tu trouves à dire ? "
+
+Sœur : " Je sais… Ce n'est pas vraiment ce que je voulais dire. "
+
+Prota : " J'ai tellement de choses à te demander… "
+
+Sœur : " Entre. On a beaucoup de choses à se dire. "
+
+[[sa version]]
+
+
+:: dire immédiatement être sa petite sœur {"position":"3700,100","size":"100,100"}
+Prota : " Je suis sa petite sœur. Je cherche à comprendre ce qui lui est arrivé. "
+
+Amie : " … Sa petite sœur ? "
+
+Prota : " Oui. Je sais que vous étiez proches. "
+
+Amie : " Je vois… Je ne pensais pas te rencontrer un jour. Entrez, on sera mieux à l'intérieur. "
+
+Une fois à l'intérieur, elle commence à nous raconter les quelques mois que ma sœur a passés chez elle. Elle possede encore quelque affaires dans une [[chambre]]
+
+
+:: dire toute la vérité {"position":"3200,150","size":"100,100"}
+Prota : " On cherche ma sœur. On a retrouvé des personnes qui l'ont connue et on commence à découvrir certaines choses. "
+
+Mère : " Tu ne devrais pas te mêler de cette histoire… "
+
+Après l'appel, elles retournent voir le propriétaire pour lui demander s'il connaît d'autres personnes qui pourraient les aider.
+
+Proprio : " Il y a peut-être quelqu'un qui pourrait vous en dire davantage. Une ancienne amie de votre sœur."
+
+Prota : " Vous savez où on peut la trouver ? "
+
+Proprio : " Oui. J'ai encore son ancienne adresse. Tenez, prenez-la. "
+
+MA : " Tu crois qu'elle saura ce qui s'est vraiment passé ? "
+
+Prota : " J'espère… On n'a pas fait tout ce chemin pour s'arrêter maintenant. "
+
+[[nouvelle piste]]
+
+
+:: discussion avec la meilleure amie {"position":"1375,100","size":"100,100"}
+Je remonte et voie (nom de MA) avachie sur mon lit 
+
+MA: "Alors ?"
+
+Prota: "Je sais que ta tout entendue"
+
+MA:"J'essaie d'etre subtil"
+
+Prota: "Bah c'est rater"
+
+Je leve les yeux aux ciel
+
+MA: "Quesque tu veut faire ?"
+
+
+<<link "Je veux retrouvé ma soeur">>
+	<<set $soeur +=1>>
+	<<goto "préparation du voyage">>
+<</link>>
+
+<<link "Je veux juste comprendre ce qui c'est passer">>
+	<<set $independance +=1>>
+	<<goto "préparation du voyage">>
+<</link>>
+
+<<link "Je veux prouver qu'elle nous a abandonner">>
+	<<set $famille +=1>>
+	<<goto "préparation du voyage">>
+<</link>>
+
+
+:: douter {"position":"8000,700","size":"100,100"}
+Chaque question semble les mettre mal à l'aise. Ma mère finit par hausser le ton.
+
+Mère : " Tu agis comme si ta sœur était la victime de toute cette histoire ! "
+
+Prota : " Je n'ai jamais dit ça. "
+
+Mère : " Pourtant, tu préfères croire des inconnus plutôt que ta propre famille. "
+
+Prota : " Je ne cherche pas à croire quelqu'un. Je veux juste comprendre ce qui s'est passé ! "
+
+Mère : " Ta sœur a fait ses propres choix. Ne l'oublie pas. "
+
+Prota : " Mais quels choix ? Pourquoi vous refusez de m'expliquer ? "
+
+Père : " Ça suffit maintenant. Cette discussion ne mène à rien. "
+
+Ma mère détourne le regard. Je comprends que je n'obtiendrai pas davantage de réponses aujourd'hui.
+
+Après cette discussion, je décide de [[rester pour la nuit]].
+
+
+:: départ prévention {"position":"1600,0","size":"100,100"}
+Le lendemain matin
+
+Sacs sur l'épaule je passe par la cuisine pour les informer de ma décisons
+
+Père: "Ou vas tu avec ces sacs ?
+"
+Prota: "J'ai decider d'aller la chercher pour obtenir des réponses"
+
+Mère: "T'es sur que c'est une bonne idée ? Tu finiras le coeur brisé"
+
+Prota:"J'ai besoin de savoir et de la voir"
+
+Mère: *soupir* 
+
+Je me dirige vers la porte
+
+Père: "Fais attention à toi"
+
+	 [[destination]]
+
+
+
+
+:: départ secret {"position":"1600,200","size":"100,100"}
+ Tot le lendemain
+
+Sacs sur l'épaule, je me dirige vers la porte d'entrée je jette un dernier coup d'oeil à au niveau du salon et je part 
+
+	 [[destination]]
+
+
+
+
+:: faire des recherches avant d’appeler {"position":"6200,100","size":"100,100"}
+Prota : " Attends, avant d'appeler, on devrait essayer de faire quelques recherches sur ce numéro. "
+
+MA : " Tu veux vérifier à qui il appartenait ? "
+
+Prota : " Exactement. On ne sait pas sur qui on pourrait tomber. "
+
+Après quelques recherches, elles retrouvent une ancienne association entre le numéro et un nom.
+
+MA : " Regarde, j'ai trouvé quelque chose. "
+
+Prota : " Un nom… [Nom]. Tu crois que ça pourrait être lié à ma sœur ? "
+
+MA : " C'est possible. On devrait garder cette information. "
+
+Après plusieurs heures de route, nous décidons de nous arrêter dans un motel pour la nuit. On commande quelque chose à manger et on s'installe dans [[la petite chambre]].
+
+
+:: faire semblant de ne pas savoir grand-chose {"position":"9100,400","size":"100,100"}
+Prota : " Je ne comprends pas pourquoi elle aurait écrit cette lettre. Elle ne m'avait jamais donné de nouvelles. "
+
+Mère : " Elle avait ses raisons. "
+
+Prota : " Pourtant, tu viens de dire que tu ne savais rien de ses lettres. "
+
+   Un silence.
+
+Mère : " Ce n'est pas ce que j'ai dit. "
+
+Prota : " Alors tu savais qu'elle avait essayé de me contacter ? "
+
+Mère : " Je ne veux pas parler de ça au téléphone. "
+
+   Je comprends que je viens de toucher à quelque chose qu'elle préfère éviter.
+   
+    [[la dernière personne]]
+
+
+:: finale {"position":"10800,400","size":"100,100"}
+<<if $soeur >= 8>>
+    <<link "Je veux essayer de me réconcilier avec ma sœur.">>
+        <<goto "FIN SOEUR">>
+    <</link>>
+<</if>>
+
+<<if $famille >= 8>>
+    <<link "Je retourne auprès de mes parents.">>
+        <<goto "FIN FAMILLE">>
+    <</link>>
+<</if>>
+
+<<if $independance >= 8>>
+    <<link "Je préfère suivre mon propre chemin.">>
+        <<goto "FIN INDEPENDANCE">>
+    <</link>>
+<</if>>
+
+
+:: fouiller la chambre {"position":"4100,100","size":"100,100"}
+Prota : " Je vais regarder un peu, peut-être qu'on trouvera quelque chose. "
+
+Amie : " D'accord, mais faites attention à ses affaires. "
+
+La protagoniste ouvre quelques tiroirs et découvre un carnet caché sous des vêtements.
+
+Prota : " Attends… C'est un carnet. "
+
+MA : " Tu crois qu'il lui appartient ? "
+
+Prota : " Il y a son écriture dessus. "
+
+[[un carnet]] personnel contenant des notes sur les événements de cette période.
+
+
+:: ignorer {"position":"7800,300","size":"100,100"}
+Je décide de ne pas y prêter attention et continue de conduire normalement.
+
+Prota : " On se fait sûrement des films à cause du message. "
+
+MA : " Peut-être… Mais garde quand même un œil dessus. "
+
+Après quelques minutes, nous décidons de quitter l'autoroute pour nous arrêter dans [[une station-service]].
+
+
+:: ignorer le message {"position":"7100,400","size":"100,100"}
+Je verrouille mon téléphone et le pose sur la table.
+
+MA : " Tu ne veux pas savoir qui c'est ? "
+
+Prota : " Pas maintenant. Je ne veux pas laisser un message anonyme décider de la suite de notre voyage. "
+
+Le message reçu ce matin ne cesse de me revenir en tête. Entre les lettres retrouvées, les témoignages et maintenant cette menace, je commence à me [[sentir dépassée]].
+
+
+:: je commence aussi à avoir des doutes {"position":"5100,200","size":"100,100"}
+Prota : " Je vais pas te mentir… Je commence aussi à avoir des doutes. "
+
+MA : " Tu vois ? Depuis le début, quelque chose ne tourne pas rond. "
+
+Prota : " Le carnet, le propriétaire… Tout le monde semble avoir une version différente. "
+
+MA : " Alors peut-être qu'il est temps d'arrêter de chercher des excuses à tes parents. "
+
+Prota : " Je veux juste connaître la vérité sur ma sœur. "
+
+On retourne au salon pour continuer à parler avec l'amie de ma soeur, elle nous parle de [[deux pistes]] pour en savoir plus a propos de ma soeur
+
+
+:: je regrette {"position":"6700,400","size":"100,100"}
+Prota : " Je commence à regretter d'être partie… "
+
+MA : " Je comprends… On est loin de chez nous, on découvre des choses qu'on n'aurait peut-être jamais dû découvrir. Mais tu n'es pas obligée de tout porter toute seule. "
+
+Prota : " J'ai l'impression que plus on avance, plus je m'éloigne de ce que je connaissais. "
+
+MA : " Peut-être que c'est justement pour ça que tu as besoin de réponses. Mais si tu veux faire demi-tour, je ne t'en voudrai pas. "
+
+Apres cette conversation on decide de se reposer et de voir ce qu'on fera [[le lendemain]]
+
+
+:: je veux savoir {"position":"6700,300","size":"100,100"}
+Prota :" Je veux quand même savoir. "
+
+MA : " Alors on ira jusqu'au bout. Mais promets-moi une chose… Peu importe ce qu'on découvre, ne garde pas tout pour toi."
+
+Prota : " Promis. "
+
+Apres cette conversation on decide de se reposer et de voir ce qu'on fera [[le lendemain]]
+
+
+:: jusqu'au bout {"position":"6700,200","size":"100,100"}
+Prota : " Je dois aller jusqu'au bout. "
+
+MA : " Alors on ira jusqu'au bout. Mais promets-moi une chose… Peu importe ce qu'on découvre, ne garde pas tout pour toi. "
+
+Prota : " Promis. "
+
+Apres cette conversation on decide de se reposer et de voir ce qu'on fera [[le lendemain]]
+
+
+:: l'accuser directement {"position":"9100,300","size":"100,100"}
+Prota : " Vous m'avez menti depuis le début ! Combien de lettres avez-vous cachées ? "
+
+Mère : " Fais attention à ce que tu racontes ! "
+
+Prota : " Alors explique-moi pourquoi cette lettre ne m'est jamais arrivée ! "
+
+Mère : " Tu ne sais absolument pas ce qui s'est passé à cette époque ! "
+
+Prota : " Justement ! Parce que vous ne m'avez jamais rien expliqué ! "
+
+Mère : " Tu veux absolument faire de nous les responsables de tout ! "
+
+Prota : " Je veux simplement savoir ce que vous m'avez caché ! "
+
+   La conversation dégénère. Ma mère finit par raccrocher.
+   
+    [[la dernière personne]]
+
+
+:: l'adresse actuelle {"position":"9700,400","size":"100,100"}
+Après un moment de silence, la personne reprend la parole.
+
+Personne : " Il y a encore quelque chose que je peux vous donner. "
+
+Prota : " Quoi ? "
+
+Personne : " Je connais son adresse actuelle. Elle habite toujours dans la région, à quelques heures de route d'ici. "
+
+Elle sort un morceau de papier et y inscrit une adresse.
+
+Je le prends lentement. Je regarde les mots, puis je les relis une deuxième fois.
+
+Après tout ce voyage, toutes ces questions et toutes ces découvertes, je tiens enfin quelque chose que je cherchais depuis le début.
+
+MA : " C'est vraiment elle ? "
+
+Personne : " Oui. Mais je ne peux pas vous dire comment elle réagira en vous voyant. "
+
+Nous remercions la personne et retournons à la voiture.
+
+Je reste quelques instants à regarder l'adresse.
+
+Elle n'est qu'à quelques heures de route.
+
+Pour la première fois, retrouver ma sœur n'est plus une simple possibilité. C'est devenu quelque chose de concret.
+
+MA : " Alors… On y va ? "
+
+<<link "prendre une nuit pour réfléchir">>
+	<<set $indépendance +=1>>
+	<<goto "prendre une nuit pour réfléchir">>
+<</link>>
+
+<<link "y aller directement">>
+	<<set $soeur +=1>>
+	<<goto "y aller directement">>
+<</link>>
+
+<<link "appeler ses parents avant d'y aller">>
+	<<set $famille +=1>>
+	<<goto "appeler ses parents avant d'y aller">>
+<</link>>
+
+
+:: la dernière personne {"position":"9300,400","size":"100,100"}
+MA et moi reprenons nos recherches à partir des informations découvertes dans la lettre. Après plusieurs appels et quelques pistes recoupées, nous parvenons à retrouver une personne qui connaissait très bien ma sœur à cette époque.
+
+Nous décidons de la rencontrer.
+
+Prota : " Vous connaissiez bien ma sœur ? "
+
+Personne : " Oui. On était proches pendant un moment. Je savais beaucoup de choses sur elle. "
+
+Prota : " Est-ce qu'elle avait essayé de reprendre contact avec moi ? "
+
+La personne prend quelques secondes avant de répondre.
+
+Personne : " Plusieurs fois. Elle parlait souvent de toi. Elle voulait savoir comment tu allais. "
+
+Prota : " Alors pourquoi elle ne m'a jamais appelée ? "
+
+Personne : " Elle a essayé. Elle a écrit, elle a cherché des moyens de te joindre. Mais certaines de ses tentatives ont été empêchées par tes parents. "
+
+Je baisse les yeux vers la lettre que je tiens encore dans mes mains.
+
+Prota : " Vous en êtes sûr ? "
+
+Personne : " Je ne te raconte pas ça pour les accuser de tout. Je sais que certaines lettres ne sont jamais arrivées jusqu'à toi. Mais il y a aussi des choses que ta sœur a choisies elle-même. "
+
+MA : " Comment ça ? "
+
+Personne : « Tes parents ont empêché certaines choses, pas toutes. Ta sœur a aussi fini par abandonner certaines tentatives. »
+
+Prota : " Pourquoi ? "
+
+Personne : " Elle avait peur... et avec le temps, elle a commencé à penser qu'il était peut-être trop tard. "
+
+Le silence s'installe. Pour la première fois, je commence à comprendre que cette histoire n'est pas aussi simple que je l'imaginais.
+
+[[la vérité sur le départ]]
+
+
+:: la maison {"position":"7600,700","size":"100,100"}
+Après plusieurs heures de route, nous arrivons enfin devant la maison. Je reste quelques secondes devant la porte, hésitante. MA me lance un regard encourageant.
+
+Une fois à l'intérieur, mes parents semblent surpris de me voir revenir.
+
+Mère : " Qu'est-ce que tu fais là ? Je pensais que tu étais partie. "
+
+Prota : " Il faut qu'on parle. Encore une fois. "
+
+Père : " On en a déjà parlé. "
+
+Prota : " Justement ! Plus j'avance, moins votre histoire a de sens. "
+
+Mère : " Quelle histoire ? "
+
+Prota : " Celle de ma sœur. J'ai rencontré des gens qui l'ont connue, j'ai retrouvé des choses qu'elle avait laissées… et rien ne correspond à ce que vous m'avez raconté. "
+
+Père : "Tu devrais peut-être arrêter de tirer des conclusions trop vite. "
+
+Prota : " Alors aidez-moi à comprendre. "
+
+Je decide de les confronter avec [[ce que j'ai appris]]
+
+
+:: la mère s'énerve {"position":"1200,0","size":"100,100"}
+
+<div class="scene-content">
+
+    <div class="dialogue prota">
+        <div class="bubble">
+            <span class="speaker">Prota</span>
+            Je te crois pas.
+        </div>
+    </div>
+
+    <div class="dialogue mere">
+        <div class="bubble">
+            <span class="speaker">Mère</span>
+            À quoi ça servirait que je te mente ?
+        </div>
+    </div>
+
+    <div class="dialogue prota">
+        <div class="bubble">
+            <span class="speaker">Prota</span>
+            Je sais pas, mais c'est ce que t'es en train de faire !
+        </div>
+    </div>
+
+    <div class="dialogue mere">
+        <div class="bubble">
+            <span class="speaker">Mère</span>
+            Bon, ça suffit. Cette discussion est terminée.
+        </div>
+    </div>
+
+    <p class="narration">
+        Après cette dernière phrase, elle retourne à son bureau sans même me regarder.
+    </p>
+
+    <p class="narration">
+        C'est toujours comme ça avec elle. On ne peut jamais la contredire sans qu'elle mette fin à la discussion.
+    </p>
+
+    <p class="narration">
+        Je retourne dans ma chambre, où MA m'attend.
+    </p>
+
+    <div class="choices">
+        [[Discussion avec ma meilleure amie->discussion avec la meilleure amie]]
+    </div>
+
+</div>
+
+
+
+:: la petite chambre {"position":"6600,300","size":"100,100"}
+Pour une fois, on essaie de parler d'autre chose. MA me raconte quelques souvenirs, plaisante sur notre voyage et tente de me changer les idées. Pendant quelques minutes, j'arrive presque à oublier tout ce qu'on a découvert.
+
+Mais peu à peu, la conversation s'essouffle. Un silence s'installe.
+
+MA : " Tu sais… et si la vérité était pire que ce que tu imagines ? "
+
+<<link "jusqu'au bout">>
+	<<set $independance +=1>>
+	<<goto "jusqu'au bout">>
+<</link>>
+
+<<link "je veux savoir">>
+	<<set $soeur +=1>>
+	<<goto "je veux savoir">>
+<</link>>
+
+<<link "je regrette">>
+	<<set $famille +=1>>
+	<<goto "je regrette">>
+<</link>>
+
+<<link "reste avec moi">>
+	<<set $indeppendance +=1>>
+	<<goto "reste avec moi">>
+<</link>>
+
+
+:: la robe {"position":"900,325","size":"100,100"}
+
+<div class="scene-content">
+
+    <p class="narration">
+        Je prends une photo devant son miroir.
+    </p>
+
+    <div class="dialogue prota">
+        <div class="bubble">
+            <span class="speaker">Prota</span>
+            Regarde ce que j'ai trouvé !
+        </div>
+    </div>
+
+    <div class="dialogue ma">
+        <div class="bubble">
+            <span class="speaker">MA</span>
+            Non ?? Tu l'as encore ?
+        </div>
+    </div>
+
+    <div class="dialogue prota">
+        <div class="bubble">
+            <span class="speaker">Prota</span>
+            Apparemment ouais.
+        </div>
+    </div>
+
+    <div class="dialogue ma">
+        <div class="bubble">
+            <span class="speaker">MA</span>
+            Faut qu'on parle de tes goûts de l'époque.
+        </div>
+    </div>
+
+    <div class="dialogue prota">
+        <div class="bubble">
+            <span class="speaker">Prota</span>
+            Oh, tais-toi !
+        </div>
+    </div>
+
+    <div class="choices">
+        [[Lui parler du carton->carton]]
+    </div>
+
+</div>
+
+
+
+:: la vérité sur le départ {"position":"9500,400","size":"100,100"}
+Prota : " Alors pourquoi est-elle partie ? Qu'est-ce qui s'est réellement passé ? "
+
+La personne prend une inspiration avant de répondre.
+
+Personne : " Ta sœur ne supportait plus la situation à la maison. Elle avait l'impression de ne jamais pouvoir faire ses propres choix. Elle voulait partir, trouver un endroit où elle pourrait enfin construire quelque chose de stable. "
+
+Prota : " Et moi ? Elle comptait vraiment me laisser derrière elle ? "
+
+Personne : " Non. Elle m'avait dit qu'elle voulait revenir te chercher un jour. Elle pensait qu'une fois sa vie reconstruite, elle pourrait t'offrir une autre possibilité. "
+
+MA : " Mais elle n'est jamais revenue… "
+
+Personne : " Au début, elle a essayé de garder le contact. Puis, avec le temps, elle s'est découragée. Elle a fini par penser que tu avais peut-être continué ta vie sans elle. "
+
+Prota : " Elle pensait que je ne voulais plus la voir ? "
+
+Personne : " Je crois surtout qu'elle ne savait plus comment revenir. "
+
+Je baisse les yeux. Toutes ces années, j'avais imaginé ma sœur comme quelqu'un qui avait simplement décidé de nous abandonner.
+
+Mais peut-être que les choses étaient bien plus compliquées.
+
+Prota : " J'ai passé tellement de temps à lui en vouloir… "
+
+MA : " Tu ne pouvais pas savoir. On ne t'avait jamais raconté toute l'histoire. "
+
+Je repense à toutes les fois où j'avais entendu mes parents parler d'elle. À leurs explications, à leurs reproches, à cette image qu'ils avaient construite au fil des années.
+
+L'image de ma sœur, égoïstement partie en abandonnant sa famille, commence à disparaître.
+
+À sa place, je découvre une personne qui a essayé de partir pour survivre, qui a voulu revenir, mais qui a fini par renoncer.
+
+Prota : " Je crois que je ne l'ai jamais vraiment comprise… "
+
+[[l'adresse actuelle]]
+
+
+:: le lendemain {"position":"7000,300","size":"100,100"}
+Le lendemain matin, alors que nous nous préparons à reprendre la route, mon téléphone vibre. Un numéro inconnu vient de m'envoyer un message.
+
+Message : " Arrête de la chercher. "
+
+Je relis la phrase plusieurs fois. Mon cœur se serre. Comment cette personne sait-elle ce que je fais ?
+
+MA : " Qu'est-ce qu'il y a ? Tu as l'air bizarre. "
+
+Prota : " Regarde… "
+
+MA lit le message et fronce les sourcils.
+
+MA : " C'est quoi ce délire ? Qui a envoyer ça ? "
+
+Prota : " Je ne sais pas… mais, quelqu'un sait qu'on la cherche. "
+
+MA : " Tu veux faire quoi ? "
+
+<<link "repondre">>
+	<<set $independance +=1>>
+	<<goto "repondre">>
+<</link>>
+
+<<link "appeler directement le numéro">>
+	<<set $soeur +=1>>
+	<<goto "appeler directement le numéro">>
+<</link>>
+
+<<link "ignorer le message">>
+	<<set $famille +=1>>
+	<<goto "ignorer le message">>
+<</link>>
+
+
+:: le témoignage {"position":"2700,75","size":"100,100"}
+Proprio: "Elle venais tout les matin ici, elle prenais tout le temps un chocolat chaud avec des oeuf brouillée."
+
+Je souris à l'evocation de son petit dej
+
+<<link "demander si elle était heureuse">>
+	<<set $soeur +=1>>
+	<<goto "demander si elle était heureuse">>
+<</link>>
+
+<<link "demander pourquoi elle avait quitté sa famille">>
+	<<set $famille +=1>>
+	<<goto "quitter sa famille">>
+<</link>>
+
+<<link "demander où elle est partie">>
+	<<set $independance +=1>>
+	<<goto "où elle est partie">>
+<</link>>
+
+
+:: les questions {"position":"10400,400","size":"100,100"}
+Je reste silencieuse un instant. J'ai encore tellement de questions que je ne sais pas par laquelle commencer.
+
+<<if $piste == "travail">>
+
+Prota : " Ton ancien collègue m'a parlé des appels que tu recevais au travail. Qui t'appelait ? "
+
+Sœur : " C'était souvent maman. Parfois, elle appelait plusieurs fois dans la même journée. Elle voulait savoir où j'étais, ce que je faisais… Elle voulait que je rentre. "
+
+Prota : " C'est pour ça que tu étais aussi nerveuse ? "
+
+Sœur : " En partie. Je ne voulais pas qu'elle sache où je vivais. "
+
+Prota : " Et pourquoi tu ne parlais jamais de nous à tes collègues ? "
+
+Sœur : " Parce que je voulais laisser cette partie de ma vie derrière moi. Je ne voulais pas avoir à expliquer pourquoi j'étais partie. "
+
+Prota : " Et le numéro ? "
+
+Sœur : " C'était un ancien numéro que j'utilisais à l'époque.  "
+
+<<elseif $piste == "appartement">>
+
+Prota : " J'ai retrouvé plusieurs lettres dans ton ancien appartement. Certaines portaient mon nom, d'autres étaient adressées à la maison. Pourquoi elles revenaient ? "
+
+Sœur : " Certaines ont été renvoyées. Maman ne voulait pas que tu les reçoives. Elle est même venue me voir plusieurs fois pour me demander d'arrêter. "
+
+Prota : " C'était donc elle, cette femme que ton ancien voisin avait vue ? "
+
+Sœur : " Oui. Elle venait me demander de rentrer, ou au moins de ne plus essayer de te contacter. "
+
+Prota : " Et toutes ces lettres que tu avais écrites sans les envoyer ? "
+
+Sœur : " Il y en a que je n'ai jamais eu le courage d'envoyer. Je les écrivais, je les relisais, puis je les rangeais. "
+
+<</if>>
+
+Après toutes ces explications, [[une question]] me reste. Celle que j'aurais voulu lui poser depuis le début.
+
+
+:: lettre {"position":"4700,200","size":"100,100"}
+Dans la lettre y ait marquer 
+
+"Je lui expliquerai tout quand elle sera assez grande"
+
+Je réalise alors que ma sœur avait prévu de reprendre contact
+
+<<link "réagir avec colère">>
+	<<set $famille +=1>>
+	<<goto "réagir avec colère">>
+<</link>>
+
+<<link "réagir avec tristesse">>
+	<<set $famille +=1>>
+	<<goto "réagir avec tristesse">>
+<</link>>
+
+<<link "rester méfiante">>
+	<<set $independance +=1>>
+	<<goto "rester méfiante">>
+<</link>>
+
+
+
+
+:: lire {"position":"4475,75","size":"100,100"}
+Je commence à lire les pages restantes
+
+"Je pensais que partir serait plus difficile que ça.
+Pourtant, une fois la porte passée, j'ai surtout ressenti du soulagement..."
+
+"Je me demande comment elle va.
+J'espère qu'elle ne pense pas que je suis partie à cause d'elle..."
+
+"Maman continue de dire que tout ce qu'elle fait est pour notre bien.
+Papa, lui, préfère ne rien dire..."
+
+Je repose le carnet à sa place, mais je m'aperçois qu'une [[lettre]] jamais envoyer  dépasse du carnet 
+
+
+:: ma penser {"position":"1925,100","size":"100,100"}
+Prota: "Je lui dirai ce que je pense d'elle"
+
+MA: "Okay, on se dirige ou pour cette premiere destination"
+
+Je ressort la photo et la regarde de plus près
+
+Prota: "Je reconnais pas précisement ou elles ce trouve mais sa me fait penser a deux villes pas très loins d'ici"
+
+MA: "Lequels 
+
+Prota: "Une petite ville touristique pas très loins ou une ville un peux plus isolée"
+
+MA: "A ton avis elle est aller ou ?"
+
+
+	[[ville touristique]]
+
+
+	[[ville isolée]]
+
+
+
+:: menssonge {"position":"2525,150","size":"100,100"}
+Proprio : "Je peux faire autre chose pour vous ?"
+
+Prota : "Bonjour. On cherche quelques informations sur les anciens habitants du quartier. "
+
+Proprio : " Ah… Vous faites un reportage ? "
+
+MA :  " Oui, c'est un peu ça."
+
+Proprio : " Dans ce cas, vous devriez peut-être vous renseigner sur une jeune fille qui venait souvent ici. Elle a quitté le quartier assez brusquement. "
+
+Prota : " Vous savez pourquoi ? "
+
+Proprio :  "Disons qu'il y avait des tensions dans sa famille… "
+
+Proprio : " Attendez… Vous ne seriez pas de la famille, par hasard ? "
+
+Prota : "Comment vous avez deviné ? "
+
+Proprio : "Vous lui ressemblée"
+
+[[le témoignage]] 
+
+
+:: mentir sur la destination {"position":"3200,250","size":"100,100"}
+Prota : " On est simplement en voyage. On ne cherche rien de particulier. "
+
+Mère : " Ne me mens pas. Je sais que tu es partie sur ses traces. "
+
+Après l'appel, elles retournent voir le propriétaire pour lui demander s'il connaît d'autres personnes qui pourraient les aider.
+
+Propriétaire : " Il y a peut-être quelqu'un qui pourrait vous en dire davantage. Une ancienne amie de votre sœur. "
+
+Prota : " Vous savez où on peut la trouver ? "
+
+Propriétaire : " Oui. J'ai encore son ancienne adresse. Tenez, prenez-la. "
+
+MA : " Tu crois qu'elle saura ce qui s'est vraiment passé ? "
+
+Prota : " J'espère… On n'a pas fait tout ce chemin pour s'arrêter maintenant. "
+
+[[nouvelle piste]]
+
+
+:: montrer directement une photo de sa mère {"position":"6050,500","size":"100,100"}
+La protagoniste sort une photo de sa mère sur son téléphone.
+
+Prota : " Est-ce que cette femme vous dit quelque chose ? "
+
+Voisin : " Attendez… "
+
+Le voisin observe la photo quelques secondes.
+
+Voisin : " Il y a certaine similitue… "
+
+Prota : " Vous pensez que c'était elle ? "
+
+Voisin : " Peut-etre, peut-etre que non. Ça remonte à plusieurs années. "
+
+MA : " C'est déjà étrange… "
+
+Avant de partir, le voisin leur indique qu'un ancien espace de stockage est encore associé à l'appartement. Elles décident d'aller [[y jeter un œil]].
+
+
+:: montrer la photo {"position":"2525,0","size":"100,100"}
+Je decide de monter la photo au propriétaire
+
+Prota : "Excusez-moi, est-ce que cette personne vous dit quelque chose ?"
+
+Proprio : "Attendez… Je connais ce visage."
+
+Prota : "C'est ma sœur. Je cherche à comprendre ce qui lui est arrivé."
+
+Proprio : "Je vois… Ça fait longtemps que je ne l'ai pas vue [[le témoignage]].
+
+
+
+
+:: montrer la photo de la soeur {"position":"3700,300","size":"100,100"}
+Prota : " Est-ce que vous reconnaissez cette personne ? "
+
+Amie : " … "
+
+Amie : " Je sais qui tu es. Elle avait une photo de toi. "
+
+Prota : " Elle gardait une photo de moi ? "
+
+Amie : " Oui. Elle la gardait toujours avec elle. Je ne savais pas si vous vous reverriez un jour… Entrez. "
+
+Une fois à l'intérieur, elle commence à nous raconter les quelques mois que ma sœur a passés chez elle. Elle possede encore quelque affaires dans une [[chambre]]
+
+
+:: ne parle pas de mes parent {"position":"5100,100","size":"100,100"}
+Prota : " Ne parle pas de ma famille comme ça. Tu ne les connais pas comme moi. "
+
+MA : «"Je ne dis pas ça pour te blesser, mais tu ne peux pas ignorer tout ce qu'on a découvert. "
+
+Prota : " Ce sont quand même mes parents. Je ne vais pas les accuser sans savoir. "
+
+MA : " D'accord… Mais j'espère que tu ne regretteras pas de leur avoir fait confiance. "
+
+
+On retourne au salon pour continuer à parler avec l'amie de ma soeur, elle nous parle de [[deux pistes]] pour en savoir plus a propos de ma soeur
+
+
+:: ne pas lui demander {"position":"6050,300","size":"100,100"}
+Prota : " Ce n'est pas grave, laissez tomber. "
+
+MA : " Tu ne veux pas savoir qui elle était ? "
+
+Prota : " Pas forcément. On ne peut pas tirer des conclusions sur un simple souvenir. "
+
+Voisin : " Comme vous voulez. Je suis désolé de ne pas pouvoir vous aider davantage. "
+
+Avant de partir, le voisin leur indique qu'un ancien espace de stockage est encore associé à l'appartement. Elles décident d'aller [[y jeter un œil]].
+
+
+:: nouvelle piste {"position":"3400,200","size":"100,100"}
+On reprend la route 
+Pendant le reste du trajet je commence a douter de mes souvenirs
+
+Une heure plus tard on arrive devant [[une maison]]
+
+
+:: numéro {"position":"6100,100","size":"100,100"}
+Prota : " Vous l'avez toujours ? "
+
+Ancien collègue : " Oui, je l'avais conservé dans mes contacts. Je ne sais pas s'il fonctionne encore, mais vous pouvez essayer. "
+
+<<link "appeller imméddiatement">>
+	<<set $soeur +=1>>
+	<<goto "appeller imméddiatement">>
+<</link>>
+
+<<link "faire des recherches avant d’appeler">>
+	<<set $independance +=1>>
+	<<goto "faire des recherches avant d’appeler">>
+<</link>>
+
+<<link "abandonner cette piste">>
+	<<set $famille +=1>>
+	<<goto "abandonner cette piste">>
+<</link>>
+
+
+
+:: on n'a pas encore assez de preuves {"position":"5100,300","size":"100,100"}
+Prota : " On n'a pas encore assez de preuves pour tirer des conclusions. "
+
+MA : " Tu ne trouves pas que tu leur laisses beaucoup trop de chances ? "
+
+Prota : " Peut-être. Mais je ne veux pas croire quelqu'un simplement parce que son histoire me paraît convaincante. "
+
+MA : " Alors qu'est-ce qu'on fait ? "
+
+Prota : " On continue de chercher. Je veux me faire ma propre opinion. "
+
+On retourne au salon pour continuer à parler avec l'amie de ma soeur, elle nous parle de [[deux pistes]] pour en savoir plus a propos de ma soeur
+
+
+
+
+:: où elle est partie {"position":"2825,250","size":"100,100"}
+Prota : "Vous savez où elle est partie après avoir quitté le quartier ?"
+
+Proprio : "Elle m'avait parlé d'une nouvelle adresse. Je peux vous la donner."
+
+Il grifonne une adresse sur un papier et me la temps au moment de sortir du café il me dit [[premiere contradiction]]  
+
+
+:: photo de la soeur {"position":"525,450","size":"100,100"}
+mettre une image 
+Soudain, un souvenir  refais surfaces, je vois ma soeur partir et nos parent s'approchant de moi en me disant: "Ta soeur à décidée de nous abandonnée".
+Boulversée par ce souvenir je decide d'aller au grenier pour y chercher [[Découverte dans le grenier]] une robe de soirée vintage 
+
+
+
+:: premier arrêt {"position":"2375,100","size":"100,100"}
+On se dirige vers le café et on se place au niveau du comptoire
+
+Propriétaire: "Bonjour, quesque je vous sert ?"
+
+MA: "Un cappucino s'il vous plait"
+
+Prota: "Et pour moi un latte merci"
+
+Il reviens quelque minute plus tard avec nos boissons
+
+<<link "lui montrer la photo">>
+	<<set $soeur +=1>>
+	<<goto "montrer la photo">>
+<</link>>
+
+<<link "mentir sur sa presence ici">>
+	<<set $independance +=1>>
+	<<goto "menssonge">>
+<</link>>
+
+
+:: premiere contradiction {"position":"3000,50","size":"100,100"}
+Proprio: "Elle parlait souvent de sa petite soeur"
+
+On le remercie et on se dirige vers la voiture quand soudain le [[téléphone sonne]] 
+
+
+:: prendre une nuit pour réfléchir {"position":"9800,300","size":"100,100"}
+Prota : « Je crois que j'ai besoin d'une nuit pour réfléchir avant de la revoir. »
+
+MA : « C'est compréhensible. Après tout ce qu'on vient d'apprendre, tu as le droit de prendre ton temps. »
+
+Prota : « Demain, je saurai quoi lui dire. »
+
+[[devant la porte]]
+
+
+
+:: prochaine destination {"position":"8600,400","size":"100,100"}
+La nuit commence à tomber lorsque nous arrivons dans une petite auberge de jeunesse. Le bâtiment est assez ancien, mais semble encore accueillir quelques voyageurs.
+
+À l'accueil, un homme nous reçoit.
+
+Prota : " Bonjour. Je cherche une personne qui aurait séjourné ici il y a plusieurs années. "
+
+Je lui montre la photo de ma sœur.
+
+Propriétaire : " Attendez… Oui, je me souviens d'elle. Elle avait séjourné ici quelques nuits. "
+
+Prota : " Vous vous souvenez de quelque chose à son sujet ? "
+
+Propriétaire : " Pas vraiment. Mais il y a quelque chose que je voulais vous montrer. "
+
+Il disparaît quelques instants dans une pièce derrière l'accueil, puis revient avec une enveloppe légèrement abîmée.
+
+Propriétaire : " J'ai retrouvé ça dans la chambre qu'elle occupait. C'était coincé derrière un meuble. Je l'ai gardé, je pensais qu'un jour quelqu'un viendrait le réclamer. "
+
+Je prends l'enveloppe avec précaution.
+
+Prota : " Vous ne l'avez jamais ouverte ? "
+
+Propriétaire : " Non. Elle ne m'appartenait pas. "
+
+Je remarque immédiatement que mon prénom est inscrit dessus.
+
+MA : " Prota… C'est pour toi. "
+
+Je retourne l'enveloppe. Une date est inscrite au dos. Elle est bien plus récente que les premiers souvenirs que nous avons retrouvés.
+
+Prota : " [[Cette lettre]] date de plusieurs années après son départ… "
+
+
+:: proprio {"position":"2400,350","size":"100,100"}
+Proprio: "Bonjour c'est pour reserver ? "
+
+Propa: "Non, nous cherchons quelqu'un qui aurait séjourné ici il y a quelque temps"
+
+*je lui montre la photo*
+
+Prota:"Est ce que vous reconnaissais la personne ? "
+
+Proprio: "Oh oui elle a séjournée, elle rester souvent près de l'entrée comme si elle attendais [[quelqu'un]]"
+
+
+
+:: préparation du voyage {"position":"1500,100","size":"100,100"}
+Le soir venu je prépare mon petit sac de voyage
+Sweat préfere, jogging confortable, lunette de soleil, la fameuse photo... tout y ait
+
+Je me demande si je dois prévenir mes parents de ma decision ou si je part sans les prévenir 
+
+<<link "prévenir les parents">>
+	<<set $famille +=1>>
+	<<goto "départ prévention">>
+<</link>>
+
+<<link "partir secrètement">>
+	<<set $independance +=1>>
+	<<goto "départ secret">>
+<</link>>
+
+
+:: prétendre être une amie {"position":"3700,200","size":"100,100"}
+Prota : " Nous étions des amies. On a perdu contact et j'aimerais simplement savoir ce qu'elle est devenue. "
+
+Amie : " Vous étiez proches ? "
+
+Prota : " Oui, assez. "
+
+Amie : " C'est étrange… Elle ne m'a jamais parlé de vous. Mais entrez, je vais essayer de vous aider. "
+
+Une fois à l'intérieur, elle commence à nous raconter les quelques mois que ma sœur a passés chez elle. Elle possede encore quelque affaires dans une [[chambre]]
+
+
+:: quelqu'un {"position":"2600,350","size":"100,100"}
+Prota: "Vous savez si elle était seule ? "
+
+Proprio: "Au début, oui. Mais un jour, quelqu'un est venu la rejoindre"
+
+MA: "Et après ?"
+
+Proprio: "Elles sont pas restées longtemps, le lendemain elle est partie précipitament"
+
+Prota :  "Vous avez vu avec [[qui elle était ?]] "
+
+
+
+
+:: qui elle était ? {"position":"2825,400","size":"100,100"}
+Prota : "Vous vous souvenez de qui était cette personne ? "
+
+Propriétaire : "Oui, elle s'appelait [Prénom]. Je me souviens encore de son visage."
+
+Prota : "Vous savez quel lien elle avait avec ma sœur ?"
+
+Proprio : "Non, mais elles semblaient bien se connaître."
+
+*quelque minutes après mon [[téléphone sonne]]... c'est ma mère
+
+
+
+:: quitter sa famille {"position":"2825,125","size":"100,100"}
+Prota : "Vous savez pourquoi elle avait quitté sa famille ?"
+
+Proprio : "Je ne sais pas trop... elle était plutot discrète a ce sujet"
+
+Prota : "Comment sa ?"
+
+Proprio : "Elle changeait de sujet dès que j'essayer d'en savoir un peux plus, mais je peux au moins vous donner sa nouvelle adresse. Elle m'en avait parlé."
+ 
+Il grifonne une adresse sur un papier et me la temps au moment de sortir du café il me dit [[premiere contradiction]]  
+
+
+:: raconter immédiatement à MA {"position":"8200,100","size":"100,100"}
+Prota : " C'était encore le numéro de ce matin… La personne m'a dit de rentrer chez moi. "
+
+MA : " Attends, quoi ? Mais comment cette personne sait-elle où on est ? "
+
+Prota : " Je ne sais pas… Mais cette fois, je suis sûre que ce n'est pas une coïncidence. "
+
+Le plein terminé, nous [[remontons dans la voiture]].
+
+
+:: ralentir {"position":"7800,200","size":"100,100"}
+Je relâche doucement l'accélérateur. La voiture derrière nous ralentit également et conserve la même distance.
+
+MA : " Tu as vu ? Elle ralentit aussi. "
+
+Prota : " Je crois qu'on devrait s'arrêter quelque part. "
+
+Après quelques minutes, nous décidons de quitter l'autoroute pour nous arrêter dans [[une station-service]].
+
+
+:: rappeler le numéro {"position":"8200,300","size":"100,100"}
+Je compose immédiatement le numéro. La sonnerie retentit plusieurs fois, mais personne ne décroche.
+
+MA : " Tu crois vraiment que cette personne va répondre ? "
+
+Prota : " Je voulais au moins essayer. "
+
+Je raccroche, frustrée.
+
+Le plein terminé, nous [[remontons dans la voiture]].
+
+
+:: refuser de fouiller {"position":"4100,300","size":"100,100"}
+Prota : " Je préfère ne pas toucher à ses affaires sans son accord. "
+
+Amie : " Je comprends. Elle était très attachée à son intimité. "
+
+MA : " On devrait peut-être respecter ça. "
+
+Prota : " Oui… On trouvera une autre façon de comprendre ce qui s'est passé. "
+
+[[deux pistes]] 
+
+
+:: remontons dans la voiture {"position":"8400,200","size":"100,100"}
+MA : " Bon… On fait quoi maintenant ? "
+
+Prota : " On continue. Je ne vais pas rentrer juste parce que quelqu'un me le demande. "
+
+MA : " Tu es sûre ? "
+
+Prota : " Oui. Mais cette fois, on reste attentives. "
+
+MA acquiesce et relance le GPS. La route défile devant nous, mais je ne peux m'empêcher de regarder régulièrement dans le rétroviseur.
+
+Je ne sais pas qui nous appelle, ni ce qu'il cherche à nous cacher. Mais une chose est certaine : quelqu'un ne veut vraiment pas que je retrouve ma sœur.
+
+Plusieurs heures passent avant que nous arrivions à notre [[prochaine destination]].
+
+
+:: repondre {"position":"7100,200","size":"100,100"}
+Je decide de répondre: " Qui êtes-vous ? "
+
+J'attends quelques minutes, mais aucune réponse n'arrive. Le numéro ne répond plus.
+
+Le message reçu ce matin ne cesse de me revenir en tête. Entre les lettres retrouvées, les témoignages et maintenant cette menace, je commence à me [[sentir dépassée]].
+
+
+:: reste avec moi {"position":"6700,500","size":"100,100"}
+Prota : " Tant que tu restes avec moi, ça ira. "
+
+MA : " Alors on ira jusqu'au bout. Mais promets-moi une chose… Peu importe ce qu'on découvre, ne garde pas tout pour toi. "
+
+Prota : "Promis. "
+
+
+Apres cette conversation on decide de se reposer et de voir ce qu'on fera [[le lendemain]]
+
+
+:: rester méfiante {"position":"4800,300","size":"100,100"}
+Prota : " C'est étrange… Elle écrit qu'elle voulait m'expliquer, mais elle ne l'a jamais fait. "
+
+MA : " Tu penses qu'elle nous cache encore quelque chose ? "
+
+Prota : " Je ne sais pas. Mais je ne veux pas tirer de conclusions à partir de quelques lignes. "
+
+MA : " Alors on continue les recherches ? "
+
+Prota : " Oui. Je veux entendre sa version directement. "
+
+Je reste silencieuse pendant quelques minutes, le smots de ma soeur continuent à touner dans la tête. MA finit par par [[briser le silence]]
+
+
+:: rester pour la nuit {"position":"8200,700","size":"100,100"}
+Je monte dans ma chambre
+Je pose mon sac sur le lit et commence à sortir les objets accumulés pendant le voyage : les photos, les lettres, le carnet…
+
+Je les regarde un à un.
+
+Le message reçu ce matin me revient en tête :
+
+" Arrête de la chercher. "
+
+Puis je repense aux paroles de ma mère :
+
+" Ta sœur a fait ses propres choix. "
+
+Je ne sais plus quoi croire.
+
+Mon téléphone vibre. Un message de MA apparaît.
+
+MA : " Tu veux vraiment rester ici ? "
+
+Je regarde autour de moi, puis les affaires étalées sur mon lit.
+
+Prota : " Non… Je crois que j'ai besoin de repartir. "
+
+MA : " Alors on repartira demain. "
+
+Je pose mon téléphone et essaie de dormir, même si mes pensées continuent de tourner.
+
+[[Le lendemain matin]]
+
+
+:: retourner temporairement à la maison {"position":"7400,700","size":"100,100"}
+Prota : " Je veux rentrer. Pas pour abandonner… Je veux les regarder dans les yeux et leur demander ce qu'ils savent vraiment. "
+
+MA : " Tu es sûre de toi ? Après tout ce qu'on a découvert, ils vont peut-être pas te dire la vérité facilement. "
+
+Prota : " Justement. Cette fois, je ne veux plus repartir sans réponses. "
+
+MA : " Alors je viens avec toi. "
+
+On commence à rouler direction [[la maison]].
+
+
+:: revient {"position":"1925,0","size":"100,100"}
+Prota: "Je lui dirait de revenir à la maison"
+
+MA: "Okay, on se dirige ou pour cette premiere destination"
+
+Je ressort la photo et la regarde de plus près
+
+Prota: "Je reconnais pas précisement ou elles ce trouve mais sa me fait penser a deux villes pas très loins d'ici"
+
+MA: "Lequels ?"
+
+Prota: "Une petite ville touristique pas très loins ou une ville un peux plus isolée"
+
+MA: "A ton avis elle est aller ou ?"
+
+
+	[[ville touristique]]
+
+
+	[[ville isolée]]
+
+
+:: route secondaire {"position":"7600,500","size":"100,100"}
+Nous choisissons finalement la route secondaire. Le trajet est plus long, mais les paysages changent peu à peu. Nous traversons plusieurs petites villes et villages.
+
+Alors que je regarde par la fenêtre, un panneau attire mon attention.
+Je fronce les sourcils. Ce nom me dit quelque chose.
+
+MA : " Qu'est-ce qu'il y a ? "
+
+Prota : " Attends… Ce village, je connais ce nom. "
+
+MA : " Tu es déjà venue ici ? "
+
+Prota : " Non, mais je suis presque sûre de l'avoir déjà vu quelque part. "
+
+Prota : " Il me semble que ce nom apparaissait dans le carnet de ma sœur. Elle avait écrit quelque chose à propos de cet endroit. "
+
+Je regarde une nouvelle fois le panneau.
+
+Prota : " Arrête-toi. Je veux [[vérifier quelque chose]]. "
+
+
+
+
+:: réagir avec colère {"position":"4800,100","size":"100,100"}
+Prota : " Alors pourquoi elle ne l'a pas fait ? Pourquoi elle ne m'a rien dit ? "
+
+MA : " Peut-être qu'elle ne savait pas comment s'y prendre… "
+
+Prota : " Elle aurait au moins pu essayer. Elle m'a laissée sans aucune explication. "
+
+MA : " Je comprends que tu lui en veuilles… "
+
+Prota : " J'ai l'impression que tout le monde savait quelque chose, sauf moi. "
+
+Je reste silencieuse pendant quelques minutes, le smots de ma soeur continuent à touner dans la tête. MA finit par par [[briser le silence]]
+
+
+:: réagir avec tristesse {"position":"4800,200","size":"100,100"}
+Prota : " Elle me manque… J'aurais tellement aimé qu'elle me dise au revoir. "
+
+MA : " Elle pensait peut-être que c'était mieux comme ça. "
+
+Prota : " J'aimerais juste savoir si elle a pensé à moi autant que j'ai pensé à elle. "
+
+MA : " Je suis sûre que tu comptais pour elle."
+
+Prota : " J'espère… "
+
+Je reste silencieuse pendant quelques minutes, le smots de ma soeur continuent à touner dans la tête. MA finit par par [[briser le silence]]
+
+
+:: sa version {"position":"10200,400","size":"100,100"}
+Nous nous installons dans le salon. Ma sœur semble chercher ses mots. Elle regarde ses mains, puis finit par prendre la parole.
+
+Sœur : " Je suppose que tu as découvert certaines choses pendant ton voyage. "
+
+Prota : " Assez pour comprendre que tout ce qu'on m'a raconté n'était pas vrai. "
+
+Sœur : " Je ne sais pas exactement ce que tu as appris, mais je vais essayer de ne rien te cacher. "
+
+Elle prend une inspiration.
+
+Sœur : " À la maison, je n'arrivais plus à respirer. J'avais l'impression que tout était décidé à ma place. Chaque fois que j'essayais de faire mes propres choix, ça finissait en dispute. "
+
+Prota : « Alors ta décidée de partir ..."
+
+Sœur : " Je pensais que ce serait temporaire. Je voulais trouver du travail, construire une vie stable. Je pensais qu'une fois que j'aurais réussi, je pourrais revenir te chercher, te voir. "
+
+Prota : «"Tu pensais vraiment que je pourrais simplement partir avec toi ? "
+
+Sœur : « Je ne savais pas comment faire autrement. À l'époque, je pensais que c'était la meilleure solution. »
+
+Elle marque une pause.
+
+Sœur : " Pendant longtemps, j'ai raconté cette histoire comme si tout était leur faute. C'était plus facile comme ça. "
+
+Prota : « Mais ce n'était pas toute la vérité ? »
+
+Sœur : " Non. Maman m'a empêchée de revenir vers toi. Certaines lettres ont été interceptées. Mais elle ne l'a pas fait pendant toutes ces années. Il y a des fois où… c'est moi qui n'ai pas essayé. "
+
+Prota : " Pourquoi ? "
+
+Sœur : " Parfois, j'avais peur. Parfois, je me disais que ce n'était pas le bon moment. Et parfois, j'abandonnais simplement. Plus le temps passait, plus ça devenait difficile. "
+
+Elle baisse les yeux.
+
+Sœur : " Je ne veux pas que tu penses que je n'ai jamais voulu te retrouver. Mais je ne veux pas non plus te faire croire que j'ai tout fait pour revenir. "
+
+[[les questions]]
+
+
+:: savoir {"position":"1925,200","size":"100,100"}
+Prota: "Je lui demandrai des réponses à mes questions"
+
+MA: "Okay, on se dirige ou pour cette premiere destination"
+
+Je ressort la photo et la regarde de plus près
+
+Prota: "Je reconnais pas précisement ou elles ce trouve mais sa me fait penser a deux villes pas très loins d'ici"
+
+MA: "Lequels ?"
+
+Prota: "Une petite ville touristique pas très loins ou une ville un peux plus isolée"
+
+MA: "A ton avis elle est aller ou ?"
+
+
+	 [[ville touristique]]
+
+
+     [[ville isolée]]
+
+
+
+:: se méfier {"position":"1200,200","size":"100,100"}
+
+<div class="scene-content">
+
+    <p class="narration">
+        Je sens bien, à sa voix, qu'elle me cache quelque chose.
+        Je décide de ne pas aggraver la situation, mais je compte bien mener mes propres recherches pour en savoir plus.
+    </p>
+
+    <p class="narration">
+        Elle retourne regarder la télé comme si de rien n'était.
+    </p>
+
+    <p class="narration">
+        Je retourne dans ma chambre pour en parler à MA.
+    </p>
+
+    <div class="choices">
+        [[Discussion avec la meilleure amie->discussion avec la meilleure amie]]
+    </div>
+
+</div>
+
+
+
+:: sentir dépassée {"position":"7300,550","size":"100,100"}
+Je reste silencieuse.
+
+MA : " Tu n'as pas dit grand-chose depuis tout à l'heure… Ça va ? "
+
+Prota : " Je ne sais plus quoi penser. J'ai l'impression que chaque réponse nous apporte encore plus de questions. "
+
+MA : " On peut faire une pause si tu en as besoin. On n'est pas obligées de continuer aujourd'hui. "
+
+Prota : " Et si on faisait fausse route depuis le début ? "
+
+MA : " Alors on le découvrira. Mais c'est toi qui décides de la suite. "
+
+<<link "continuer">>
+	<<set $soeur +=1>>
+	<<goto "continuer">>
+<</link>>
+
+<<link "retourner temporairement à la maison">>
+	<<set $famille +=1>>
+	<<goto "retourner temporairement à la maison">>
+<</link>>
+
+
+:: téléphone sonne {"position":"3000,400","size":"100,100"}
+Prota : " C'est ma mère… "
+
+MA : " Elle sait où on est ? "
+
+Prota : " Je crois qu'elle a compris qu'on cherchait ma sœur. "
+
+Mère : " Où est-ce que tu es ? Ton père et moi sommes très inquiets ! "
+
+Prota : " Pourquoi ? Vous saviez quelque chose ? "
+
+Mère : " Ce n'est pas le moment de discuter de ça. Je veux juste savoir où tu te trouves. "
+
+<<link "dire toute la vérité">>
+	<<set $famille +=1>>
+	<<goto "dire toute la vérité">>
+<</link>>
+
+<<link "mentir sur la destination">>
+	<<set $independance +=1>>
+	<<goto "mentir sur la destination">>
+<</link>>
+
+<<link "confronté directement ma mère">>
+	<<set $soeur +=1>>
+	<<goto "confronté directement ma mère">>
+<</link>>
+
+
+:: un carnet {"position":"4300,100","size":"100,100"}
+J'ouvre le carnet, certaines sont arrachées
+Je survole le carnet plusieurs pages de notre famille
+
+<<link "lire tout ce qu'il reste">>
+	<<set $independance +=1>>
+	<<goto "lire">>
+<</link>>
+
+<<link "arrêter de lire">>
+	<<set $soeur +=1>>
+	<<goto "arrêter de lire">>
+<</link>>
+
+
+
+
+:: un voisin {"position":"5700,300","size":"100,100"}
+Prota : " Bonjour, excusez-moi de vous déranger. Vous connaissiez une jeune femme qui habitait ici il y a quelques années ? "
+
+Voisin : " Oui, je crois voir de qui vous parlez. Une jeune femme assez discrète ? "
+
+Prota : " Oui, c'est ma sœur. Vous vous souvenez d'elle ? "
+
+Voisin : " Un peu. Elle ne parlait pas beaucoup avec les autres habitants. Elle avait souvent l'air préoccupée. "
+
+MA : " Préoccupée ? "
+
+Voisin : " Oui. Il m'arrivait de la voir regarder plusieurs fois derrière elle en rentrant chez elle. "
+
+Prota : " Vous savez de quoi elle avait peur ? "
+
+Voisin : " Non. Je ne lui ai jamais posé la question. Mais elle semblait toujours sur ses gardes. "
+
+Prota : " Elle avait des problèmes avec quelqu'un ? "
+
+Voisin : « Je ne sais pas. Je me souviens simplement qu'elle recevait parfois [[des visites]]. »
+
+
+:: une maison {"position":"3600,200","size":"100,100"}
+Avec un peu d'aprehension on toque a la porte 
+
+Une femme nous ouvre la porte 
+
+Amie : " Bonjour c'est pour ? "
+
+Prota : " Bonjour, nous aimerions vous poser quelques questions sur une personne que vous avez connue. "
+
+Amie : " Je suis désolée, je ne peux pas vous aider. "
+
+MA : " S'il vous plaît, c'est important pour nous. "
+
+Amie : " Je vous ai dit que je ne voulais pas en parler. "
+
+<<link "dire immédiatement être sa petite sœur">>
+	<<set $soeur +=1>>
+	<<goto "dire immédiatement être sa petite sœur">>
+<</link>>
+
+<<link "prétendre être une amie">>
+	<<set $independance +=1>>
+	<<goto "prétendre être une amie">>
+<</link>>
+
+<<link "montrer la photo de la soeur">>
+	<<set $soeur +=1>>
+	<<goto "montrer la photo de la soeur">>
+<</link>>
+
+
+:: une petite librairie {"position":"8000,500","size":"100,100"}
+La librairie est petite, avec des étagères remplies de livres anciens et quelques cartons empilés derrière le comptoir.
+
+Une personne nous accueille.
+
+Libraire : " Bonjour, je peux vous aider ? "
+
+Prota : " Bonjour. Je cherche une personne qui aurait fréquenté cette librairie il y a quelques années. Elle s'appelle… "
+
+Je lui montre une photo de ma sœur.
+
+Libraire : " Attendez… oui, son visage me dit quelque chose. Elle venait de temps en temps. "
+
+Prota : " Vous vous souvenez d'elle ? "
+
+Libraire : " Pas très bien, mais je me souviens qu'elle écrivait énormément de lettres. Elle passait parfois du temps ici à écrire. "
+
+Prota : " Des lettres ? "
+
+Libraire : " Oui. Elle en avait souvent plusieurs avec elle. "
+
+<<link "demander à qui les lettres étaient destinées">>
+	<<set $famille +=1>>
+	<<goto "demander à qui les lettres étaient destinées">>
+<</link>>
+
+<<link "demander si quelqu'un accompagnait sa soeur">>
+	<<set $independance +=1>>
+	<<goto "demander si quelqu'un accompagnait sa soeur">>
+<</link>>
+
+<<link "demander dans quel état elle semblait être">>
+	<<set $soeur +=1>>
+	<<goto "demander dans quel état elle semblait être">>
+<</link>>
+
+
+:: une question {"position":"10600,400","size":"100,100"}
+Prota : " Pourquoi tu n'es jamais venue me chercher toi-même ? "
+
+Ma sœur ne répond pas tout de suite. Elle regarde le sol, puis finit par relever les yeux vers moi.
+
+Sœur : " Au début, je ne pouvais pas. "
+
+Elle marque une pause.
+
+Sœur : " Ensuite, j'avais peur. Et après… tellement de temps était passé que je ne savais plus comment revenir dans ta vie. "
+
+Prota : " Tu pensais que je t'avais oubliée ? "
+
+Sœur : " Non. Mais je pensais toujours que j'aurais encore le temps. "
+
+Un long silence s'installe.
+
+Sœur : " Je suis désolée. Je sais que ça ne répare rien, mais je le suis vraiment. "
+
+Je la regarde. Pendant des années, j'avais imaginé ce moment. J'avais préparé des reproches, des questions, des accusations.
+
+Mais maintenant que je suis devant elle, je ne sais plus exactement ce que je ressens.
+
+C'est à moi de décider ce que je vais faire de tout ce que je viens d'apprendre.
+
+Je ne peux pas changer ce qui s'est passé. Je ne peux pas récupérer toutes ces années.
+
+Mais je peux décider de la suite.
+
+[[finale]]
+
+
+:: une station-service {"position":"8000,200","size":"100,100"}
+MA : " On va faire une pause. J'ai besoin de souffler un peu. "
+
+Nous nous garons près des pompes. La voiture grise continue sa route sans ralentir.
+
+Prota : " Tu vois ? Elle a continué. "
+
+MA : " Ouais… On a peut-être paniqué pour rien. "
+
+Je sors de la voiture pendant que MA commence à faire le plein. Mon téléphone se met soudain à sonner. Le même numéro inconnu.
+
+Je regarde l'écran quelques secondes avant de décrocher.
+
+Prota : " Allô ? "
+
+Aucune réponse.
+
+Prota : " Qui est à l'appareil ? "
+
+Un silence, puis une voix finit par murmurer :
+
+Voix inconnue : « Tu devrais rentrer chez toi. »
+
+La communication se coupe.
+
+Je reste immobile le téléphone contre l'oreille.
+
+MA : " Qu'est-ce qui se passe ? "
+
+[[raconter immédiatement à MA]]
+
+[[rappeler le numéro]]
+
+
+:: une veille photo {"position":"975,100","size":"100,100"}
+la photo devait dater de plusieurs années.
+J'aperçois ma soeur et une autre personne sur la photo avec un décors qui lui semble famillier 
+<<link "garder la photo">>
+	<<set $soeur +=1>>
+	<<goto "confrontation">>
+<</link>>
+
+<<link "en parler au parent">>
+	<<set $famille +=1>>
+	<<goto "confrontation">>
+<</link>>
+
+
+:: ville isolée {"position":"2200,350","size":"100,100"}
+Prota: "Je pense qu'elle a dut aller dans cette ville pour se faire discrète"
+
+MA: "C'est partie pour la découverte d'une ville paumé"
+
+Elle met la radio a fond et voila que notre road trip commence
+On roule un moment avant d'apercevoir le panneau de bienvenue
+
+MA: "C'est vraiment loin de tout ici..."
+
+Prota: "T'es sur qu'on est au bon endroit"
+
+MA: "D'après les indications, oui. Regarde, il y a un ancien motel juste là."
+
+On decident de se garer au motel puis on entre et nous apercevont la [[proprio]]
+
+
+:: ville touristique {"position":"2200,100","size":"100,100"}
+Prota: "Je pense qu'elle a dut aller dans cette ville pour se changer les idées et découvrir de nouvelle chose"
+
+MA: "Cap sur la ville touristique"
+
+Elle met la radio a fond et voila que notre road trip commence
+On roule un moment avant d'apercevoir le panneau de bienvenue
+On arrive on centre de la ville, on commence par intérogés les habitant de la ville sans succès. 
+Nous nous dirigeons vers le café de la ville en esperant avoir des réponses 
+
+
+	[[premier arrêt]]
+
+
+
+
+
+:: vérifier quelque chose {"position":"7800,500","size":"100,100"}
+Nous quittons la route principale pour rejoindre le village.
+
+Les rues sont étroites et relativement calmes. Quelques commerces sont encore ouverts, mais la plupart des habitants semblent vaquer tranquillement à leurs occupations.
+
+MA : " Alors, on cherche quoi exactement ? "
+
+Prota : " Je ne sais pas encore. Mais si elle est vraiment passée ici, quelqu'un a peut-être gardé un souvenir d'elle. "
+
+Nous commençons à demander autour de nous. Après quelques recherches, un commerçant nous indique [[une petite librairie]] que ma sœur fréquentait régulièrement.
+
+MA : " On dirait qu'on tient quelque chose. "
+
+Prota : " Allons voir. "
+
+
+:: y aller directement {"position":"9800,400","size":"100,100"}
+Prota : « Oui. Je ne veux plus attendre. J'ai passé trop de temps à chercher cette adresse pour faire demi-tour maintenant. »
+
+MA : « Alors attache ta ceinture. On y va. »
+
+[[devant la porte]]
+
+
+:: y jeter un œil {"position":"6300,400","size":"100,100"}
+Prota : " Tu crois qu'il reste vraiment des affaires à elle ici ? "
+
+MA : " On ne perd rien à regarder. "
+
+Elles ouvrent l'espace de stockage. À l'intérieur, plusieurs cartons sont recouverts de poussière. On y trouve des photographies, quelques vêtements, des objets personnels et plusieurs enveloppes.
+
+Prota : «"Regarde… Il y a encore toutes ces affaires. "
+
+MA : " On dirait qu'elle n'a jamais vraiment récupéré ses cartons. "
+
+La protagoniste commence à fouiller les enveloppes et remarque que certaines portent son prénom.
+
+Prota : " Attends… Celle-ci est pour moi. "
+
+MA : " C'est son écriture ? "
+
+Prota : " Oui… "
+
+Elle retourne l'enveloppe et remarque une inscription.
+
+													RETOUR A L'EXPEDITEUR
+                                                    
+Prota : " Pourquoi elle a écrit à la maison ? "
+
+MA : " Et pourquoi la lettre est revenue ? "
+
+Prota : " Je ne comprends pas… Elle avait pourtant mon adresse. "
+
+MA : " Tu crois que quelqu'un l'a renvoyée ? "
+
+Prota : " Je ne sais pas… Mais pourquoi personne ne m'a jamais parlé de ces lettres ? "      
+
+Après plusieurs heures de route, nous décidons de nous arrêter dans un motel pour la nuit. On commande quelque chose à manger et on s'installe dans [[la petite chambre]].
+
+
+:: StoryStylesheet [stylesheet]
+
+/* SCENE EN ARRIERE-PLAN */
+.scene {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: black;
+    z-index: 0;
+    pointer-events: none;
+}
+
+/* IMAGE DE FOND */
+.background {
+    position: absolute;
+    inset: 0;
+
+    background-image: url("https://i.ibb.co/xtx3LhGj/t-l-chargement-21.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* PERSONNAGE */
+.character {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    height: 70%;
+    width: 70%;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.character img {
+    height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: bottom center;
+}
+
+/* TEXTE ET CHOIX AU PREMIER PLAN */
+
+/* Encadrement réduit */
+.scene-content {
+    position: relative;
+    z-index: 2;
+
+    width: 70%;
+    max-width: 750px;
+    margin: 35vh auto 20px;
+    padding: 12px 22px;
+
+    background: rgba(16, 26, 43, 0.82);
+    border: 1px solid rgba(214, 196, 154, 0.25);
+    border-radius: 10px;
+
+    color: #e8e5dc;
+}
+
+
+/* Narration */
+.narration {
+    text-align: center;
+    color: #d6c49a;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+/* Organisation des dialogues */
+.dialogue {
+    display: flex;
+    width: 100%;
+    margin: 18px 0;
+}
+
+/* Alignement Prota */
+.dialogue.prota {
+    justify-content: flex-end;
+}
+
+/* Alignement Mère */
+.dialogue.mere {
+    justify-content: flex-start;
+}
+
+/* Bulles */
+.bubble {
+    max-width: 65%;
+    padding: 14px 20px;
+    border-radius: 16px;
+    line-height: 1.6;
+    font-size: 17px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Bulle Prota */
+.prota .bubble {
+    background: #254c57;
+    color: #e8f5f3;
+    border: 1px solid #5b9b9c;
+    border-bottom-right-radius: 3px;
+}
+
+/* Bulle Mère */
+.mere .bubble {
+    background: #e1d6c2;
+    color: #29313a;
+    border: 1px solid #b9a989;
+    border-bottom-left-radius: 3px;
+}
+
+/* Nom du personnage */
+.speaker {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.prota .speaker {
+    color: #8bd5d0;
+}
+
+.mere .speaker {
+    color: #786748;
+}
+
+/* Photo */
+.photo-dialogue {
+    text-align: center;
+    margin: 25px auto;
+}
+
+.photo-dialogue img {
+    max-width: 220px;
+    max-height: 180px;
+    object-fit: contain;
+    border: 3px solid #d6c49a;
+    border-radius: 6px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+}
+
+/* Choix du joueur */
+.choices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.choices a {
+    width: 75%;
+    text-align: center;
+    margin: 7px 0;
+}
+
+/* Mobile */
+@media screen and (max-width: 700px) {
+    .bubble {
+        max-width: 85%;
+        font-size: 15px;
+    }
+}
+
+/* Bulles de MA */
+.dialogue.ma {
+    justify-content: flex-start;
+}
+
+.ma .bubble {
+    color: #edf2fa;
+    background: linear-gradient(135deg, #465b7a, #30435f);
+    border: 1px solid rgba(153, 180, 220, 0.6);
+    border-bottom-left-radius: 3px;
+}
+
+.ma .speaker {
+    color: #b5cbea;
+}
+
+.ma .bubble::after {
+    content: "";
+    position: absolute;
+    left: -7px;
+    bottom: 0;
+    border-right: 8px solid #30435f;
+    border-top: 8px solid transparent;
+}
